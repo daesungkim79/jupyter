@@ -1,0 +1,148 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3833918
+Item Significant Edit Date on Shared Item: Mar 30, 2020 3:14:32 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Mar 30, 2020 3:14:32 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: Comment
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Mar 30, 2020 3:14:32 PM
+Root ID: 3833918
+Reference Mode: Author
+References: 3833927xyz
+Contained By: 3833917
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3833918
+Modified By: Á¶¿µÈÆ (yh.jo)
+Created By: Á¶¿µÈÆ (yh.jo)
+Modified Date: Mar 30, 2020 3:14:32 PM
+Created Date: Mar 30, 2020 3:14:32 PM
+Shared Attachments: 
+Authorizing Activity: 
+Suspect Count: 
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 
+Trace Status: none
+Description: 
+Downstream Trace Count: 0
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: Mar 30, 2020 3:14:32 PM
+Valid Activity: false
+Validated By Trace Health: Out of Range
+Verified By Trace Health: Red
+Object Text: [Table] Client/Server Interface
+Port Name	Port Long Name	Port Type	Port Interface	Operation	
+ApplComPrivate_Init	Initialization of ApplComPrivate	S	Init	Initialize	
+PrivateCAN0BusOff	PrivateCAN0 BusOff	C	DiagnosticMonitor	SetEventStatus	
+PrivateCAN0MsgTout	PrivateCAN0 Timeout	C	DiagnosticMonitor	SetEventStatus	
+PrivateCAN0MsgCrcErr	PrivateCAN0 CRC Error	C	DiagnosticMonitor	SetEventStatus	
+PrivateCAN0MsgArcErr	PrivateCAN0 ARC Error	C	DiagnosticMonitor	SetEventStatus	
+BuckupActv	Notify that ECU2 has to be master	
+	DiagnosticMonitor	SetEventStatus	
+SoftwareVersionDiffError	ECU1 and ECU2 has different Software	
+	DiagnosticMonitor	SetEventStatus
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: 
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: 
+ASIL: 
+Remark: 
+Original ASIL: 
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

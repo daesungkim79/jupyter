@@ -1,0 +1,138 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 4129867
+Item Significant Edit Date on Shared Item: Jun 26, 2020 2:12:28 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jun 26, 2020 2:12:28 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: Comment
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jun 26, 2020 2:12:28 PM
+Root ID: 3796702
+Reference Mode: Author
+References: 4129907xyz
+Contained By: 4129871
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 4129867
+Modified By: 신창우 (changwoo.shin)
+Created By: 신창우 (changwoo.shin)
+Modified Date: Jun 26, 2020 2:12:28 PM
+Created Date: Jun 26, 2020 1:25:00 PM
+Shared Attachments: 
+Authorizing Activity: 3135991
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: none
+Description: 
+Downstream Trace Count: 0
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: Jun 26, 2020 2:12:28 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: [Table] Client/Server Interface
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: 
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: 
+ASIL: 
+Remark: 
+Original ASIL: 
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

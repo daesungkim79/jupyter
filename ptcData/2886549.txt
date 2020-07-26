@@ -1,0 +1,147 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 2886549
+Item Significant Edit Date on Shared Item: Jul 9, 2020 1:47:57 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jul 9, 2020 1:47:57 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jul 9, 2020 1:47:57 PM
+Root ID: 2886549
+Reference Mode: Author
+References: 4164468xyz
+Contained By: 3106861
+Contains: 
+Type: Design
+Summary: SteerSelfCtrg
+State: Edit
+Project: /Steering/SBW_LV
+ID: 2886549
+Modified By: ±è´ë¼º (p13870)
+Created By: ÀÌ±¤Çü (kh_lee)
+Modified Date: Jul 13, 2020 2:32:27 PM
+Created Date: Nov 7, 2019 10:49:09 AM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 3313330
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: upstream downstream
+Description: 
+Downstream Trace Count: 1
+Upstream Trace Count: 1
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 2427395
+Revision Date: Jul 9, 2020 1:47:57 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: General specification below to be met through actual implementation.
+  
+Category : ASW 
+Function(Runnable)/Period:  pr1SteerSelfCtrg/1ms 
+Functionality: SWC provides target steering angle to find rack center, and requests angle trim at the center position.
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_11550
+Comment 2: [20. 7. 6] 
+Consistency : Checked
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: Execution Time??¡Â?50usec?
+ROM?¡Â?10KB?
+RAM?¡Â?128Byte
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Newly Developed
+ASIL: D
+Remark: 
+Original ASIL: QM
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: Software Integration Test
+Source Link: 
+SFA_rpy/SteerSelfCtrgPkg.sbs :live
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

@@ -1,0 +1,151 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 4125084
+Item Significant Edit Date on Shared Item: Jul 9, 2020 1:42:06 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jul 9, 2020 1:42:06 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jul 9, 2020 1:42:06 PM
+Root ID: 3811663
+Reference Mode: Author
+References: 4125085xyz
+Contained By: 4125070
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 4125084
+Modified By: seonggwon.jeong (p13985)
+Created By: ¿ø¿ì¼® (wooseok.won)
+Modified Date: Jul 16, 2020 3:53:31 PM
+Created Date: Jun 25, 2020 4:02:54 PM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 21
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: upstream suspect
+Description: 
+Downstream Trace Count: 0
+Upstream Trace Count: 104
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 2319624, 2402647, 2470509, 2470517, 2479159, 2319703, 2828682, 2402642, 2402644, 2431615, 2479311, 2783879, 2960097, 3014275, 2300403, 2301257, 2301282, 2301285, 2479153, 2319564, 2299908, 2371948, 2403103, 2719201?, 2719271?, 2431667, 2431669, 2431671, 2431673, 2436389, 2443876, 2445331, 2445372, 2445374, 2445378, 2445383, 2445558, 2445568, 2446329, 2446517, 2448474, 2448476, 2448478, 2448480, 2456015, 2456017, 2456019, 2456023, 2456025, 2567324, 2456420, 2619035, 2619037, 2619039, 2619041, 2619043, 2619045, 2619047, 2619049, 2619051, 2619053, 2619055, 2619057, 2619059, 2458584, 2459173, 2464972, 2459726, 2473975, 2500971?, 4104021?, 2595256, 3886908, 2062101, 2062102, 2508192, 2062140, 2062160, 2062099, 4099701, 2062078, 2764543?, 2061558?, 2061546?, 2061555?, 2061557?, 2061556?, 2445526?, 2061571?, 2061561?, 2061563?, 2446417, 2061570?, 2061586?, 2061588?, 2470493?, 2470501?, 2446413, 2455909, 2556346, 3881058?, 3014654, 2429475, 3924383?
+Revision Date: Jul 9, 2020 1:42:06 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: Basically AutoSAR BSW is developed and delivered by 3rd party company. 
+And what system supplier develop is specifying the behavior of given BSW static code with configuing the parameters for each API in BSW stack.
+
+
+
+Category: BSW
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_16741
+Comment 2: [20. 7. 6] 
+Consistency : Checked
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: Execution Time?¡Â?50usec?
+ROM?¡Â?10KB?
+RAM?¡Â?128Byte?
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Newly Developed
+ASIL: QM
+Remark: 
+Original ASIL: D
+Limitation: Specific combination of the sensors to be required. 
+1) ETC from this ECU for primary absolute angle signal
+2) ETC from other ECU for second absolute angle signal
+3) External angle sensor for back up absolute angle signal
+4) MHE TOS fot relative angle signal
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

@@ -1,0 +1,138 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3106795
+Item Significant Edit Date on Shared Item: Jul 8, 2020 11:41:56 AM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jul 8, 2020 11:41:56 AM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: Heading
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jul 8, 2020 11:41:56 AM
+Root ID: 3106795
+Reference Mode: Author
+References: 4163194xyz
+Contained By: 3103357
+Contains: 3111400ay, 3111380ay, 3111383ay, 3111386ay
+Type: Design
+Summary: CtrlModMgr
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3106795
+Modified By: Àå¼®Áø (seokjin1.jang)
+Created By: È«½Â±Ô (Seunggyu.hong)
+Modified Date: Jul 8, 2020 11:41:56 AM
+Created Date: Feb 4, 2020 8:40:21 AM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: none
+Description: 
+Downstream Trace Count: 0
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: Jul 8, 2020 11:41:56 AM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: CtrlModMgr
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: 
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: 
+ASIL: B
+Remark: 
+Original ASIL: 
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

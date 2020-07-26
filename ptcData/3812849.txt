@@ -1,0 +1,152 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3812849
+Item Significant Edit Date on Shared Item: Jun 11, 2020 5:50:15 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jun 11, 2020 5:50:15 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: Comment
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jun 11, 2020 5:50:15 PM
+Root ID: 3812849
+Reference Mode: Author
+References: 4105210xyz
+Contained By: 3812850
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3812849
+Modified By: È«½Â±Ô (Seunggyu.hong)
+Created By: È«½Â±Ô (Seunggyu.hong)
+Modified Date: Jun 11, 2020 5:50:15 PM
+Created Date: Mar 30, 2020 11:24:57 AM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: none
+Description: 
+Downstream Trace Count: 0
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: Jun 11, 2020 5:50:15 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: [Table] Send/Receiver Interfaces
+
+Port NamePort Long NamePort TypePort InterfaceData Element
+VICM_Steer_Mode_CmdSteer mode commandRSbwSysMod1SbwSysMod
+VICM_Steer_Mode_VldSteer mode validity flagRFlg1Flg
+VehSpdVehicle speed from ApplComRVehSpd2Spd
+VehSpdVldVehicle speed validity flag from ApplComRFlg1Flg
+RackPosnCmdRack position commandRRackPosn2RackPosn
+RackPosnMeasdmeasured Rack positionRRackPosn2RackPosn
+SteerWhlAgVldSteering wheel angle Validity flagRSts3Sts
+RackPosnVldRack Position Validity flagRSts3Sts
+ThisEcuIdThis Ecu IdREcuRole1EcuRole
+OtherEcuSteerModOther Ecu steer modeRSteerMod1SteerMod
+SteerModSteer mode informationSSteerMod1SteerMod
+CtrlDiFlgControl disable flag for target motor torqueSFlg1Flg
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: 
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: 
+ASIL: 
+Remark: 
+Original ASIL: 
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

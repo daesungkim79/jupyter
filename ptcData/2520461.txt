@@ -1,0 +1,258 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 2520461
+Item Significant Edit Date on Shared Item: Apr 24, 2020 2:52:22 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Apr 24, 2020 2:52:22 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Apr 24, 2020 2:52:22 PM
+Root ID: 2520461
+Reference Mode: Author
+References: 2520462xyz
+Contained By: 3669606
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 2520461
+Modified By: È«½Â±Ô (Seunggyu.hong)
+Created By: ÀÌ±¤Çü (kh_lee)
+Modified Date: Apr 24, 2020 2:52:22 PM
+Created Date: Jun 28, 2019 6:14:40 PM
+Shared Attachments: 
+Authorizing Activity: 3135991
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: downstream
+Description: 
+Downstream Trace Count: 72
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 2319363, 2319364, 2319365, 2319366, 2319367, 2319368, 2319369, 2319370, 2319371, 2319372, 2319373, 2319374, 2319379, 2319380, 2319381, 2319382, 2319383, 2319384, 2319385, 2319386, 2319387, 2319388, 2319389, 2319390, 2319391, 2319392, 2319393, 2319394, 2319395, 2319396, 2319397, 2319398, 2319399, 2319400, 2319403, 2319404, 2319405, 2319406, 2319407, 2319408, 2319409, 2319410, 2319411, 2319412, 2902877, 2902881, 2902885, 2902889, 2902893, 2902899, 2902903, 2902907, 2902913, 2902917, 2902921, 2902925, 2902931, 2902935, 2902939, 2902943, 2902947, 2902951, 2902955, 2902959, 2902963, 2902967, 2902971, 2902975, 3768860, 3768862, 2524243, 2524245
+Verified By Pass Count: 71
+Verified By Trace Count: 72
+Verified By Pass Percentage: 99%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: Apr 24, 2020 2:52:22 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Green
+Object Text: [Table] RTE Periodic Runnables
+
+
+¡Ø Lower number in the position column shall be executed earlier.
+
+
+TasksEvents
+Task namePositionRunnablePeriod(ms)Offset(ms)
+RteTask1ms1prCP1msStrtQm10
+2pr1InitRunnable10
+3pr1IoHwAb_An10
+4pr1IoHwAb_Discrete10
+5pr1DiagPreCond10
+6pr1ApplComPrivate10
+7pr2ApplCom10
+RteTask1msB1_A1pr1InitRunnableB110
+2pr1IoHwAb_Sent110
+3pr1SteerWhlTq10
+4pr2ApplComIf10
+RteTask1msB21pr1IoHwAb_Sent210
+2pr1IoHwAb_B2_Spi10
+3pr1MotAgDiagc210
+RteTask1msD_A1prCP1ms1StrtD10
+2pr1InitRunnableD10
+3pr1ActrMot10
+4pr1MotAgDiagc10
+5pr1MotAgSpd10
+6pr1MotAgEtc10
+7pr1PinionAg10
+8pr1SbwSigVotg10
+RteTask1msB1_B1prCP1msStrtB110
+2pr1SFACtrlSigProc 10
+3pr1DrvrTqEstimr10
+4pr1SFACtrlStMac10
+5pr1SteerSelfCtrg10
+6pr1VehKinematCtrl10
+7pr1SteerTarTqGenr10
+8pr1HptcCtrl10
+9pr1IngEgress10
+10pr1CtrlModMgr10
+11pr1TarPosnArbn10
+12pr1TarTqArbn10
+13pr1TarAgSrcSel10
+14pr1SteerAgTrckgCtrl10
+15pr1TarTorsBarTqGenr10
+16pr1TqTrckgCtrl10
+17pr1MotTqCmd10
+18pr1MotRefCalcn10
+19pr1MotTqRplCncl10
+RteTask1msD_B1prCP1ms2StrtD10
+2pr2ActrMot10
+3pr1MotPhaOpenDiagc50
+4pr1MotIDiffDiagc50
+5pr1MotISnsrDiagc50
+6pr1MotIOVDiagc50
+WdgSrvcTask11ExtWdg_MainFunction20
+2WdgM_MainFunction100
+SchMComTask_1ms1Can_17_MCanP_MainFunction_Write10
+2Can_17_MCanP_MainFunction_Read10
+SchMTask31Xcp_MainFunction20
+2Can_17_MCanP_MainFunction_Mode20
+RteTask2msB11prCP2msStrtB120
+2pr1PICoeffEstimn20
+3pr1TqRampCtrl20
+4pr1OemSbwEna20
+RteTask2msQm1prCP2msStrtQm20
+2pr1PartnWdgIf20
+3pr2DemProxyQm20
+RteTask2msB21prCP2msStrtB220
+RteTask2msD1prCP2msStrtD20
+2pr1GateDrvr20
+3pr1IntPwrSply20
+4pr1SigCorrlnDiagc20
+5pr3ActrMot20
+6pr1FailrMgr20
+7pr1EcuRole20
+8pr1ModMgr20
+SchMTask11Com_MainFunctionRx50
+2Com_MainFunctionTx50
+3Com_MainFunctionRouteSignals50
+4CanTp_MainFunction50
+RteTask5msB11pr1ApplComIf50
+RteTask5msQm1pr1ApplCom50
+SchMTask21BswM_MainFunction200
+2Dem_MainFunction200
+3EcuM_MainFunction200
+4NvM_MainFunction100
+5Fee_MainFunction100
+6Fls_17_Pmu_MainFunction100
+7Can_17_MCanP_MainFunction_Busoff100
+8CanSM_MainFunction100
+9ComM_MainFunction_0100
+10ComM_MainFunction_1100
+11Dcm_MainFunction100
+RteTask10msQm1prCP10msStrtQm100
+2pr1MotPrmEstimn100
+3pr1TunVrntSel100
+4pr1RunningRstDiagc100
+5pr1DemProxyQm200
+RteTask10msB11prCP10msStrtB1100
+2pr1VehSpd100
+3pr1BattUDiagc100
+4pr1BrdgUDiagc100
+5pr1IgnDiagc100
+6pr1OverHeatProtn400
+7prNvmProxyB1100
+8pr1DemProxyB1200
+9pr1SysCfg100
+RteTask10msB21pr1DemProxyB2200
+RteTask10msD1pr1DemProxyD200
+SchMTask41DemProxy_MainFunction200
+2NvMProxy_MainFunction100
+SrvcTask1pr1PpkTrim40
+2pr1AnalyticRec80
+RteErrataTask1pr2PpkTrim4000
+2pr1IoHwAb_Dcm2000
+3prIoHwAb_Rsc2000
+4pr200DemProxyQm2000
+5pr1RteErrata10000
+6pr1DemProxyA200
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_10744
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Reused with Modifications
+ASIL: 
+Remark: 
+Original ASIL: QM
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: Software Integration Test
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

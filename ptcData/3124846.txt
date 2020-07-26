@@ -1,0 +1,150 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3124846
+Item Significant Edit Date on Shared Item: Jun 26, 2020 3:39:59 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jun 26, 2020 3:39:59 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jun 26, 2020 3:39:59 PM
+Root ID: 3111399
+Reference Mode: Author
+References: 3982426xyz
+Contained By: 3124844
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3124846
+Modified By: seonggwon.jeong (p13985)
+Created By: ¿ø¿ì¼® (wooseok.won)
+Modified Date: Jul 16, 2020 11:46:27 AM
+Created Date: Feb 18, 2020 5:14:05 PM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 9
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 2891381
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: upstream suspect downstream
+Description: 
+Downstream Trace Count: 41
+Upstream Trace Count: 40
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 3775509, 3775511, 3775513, 3775515, 3775519, 3775521, 3775523, 3775525, 3775529, 3775531, 3775533, 3775535, 3775539, 3775541, 3775543, 3775545, 3775549, 3775551, 3775553, 3775555, 3775559, 3775561, 3775563, 3775565, 3775569, 3775571, 3775573, 3775575, 3775579, 3775581, 3775583, 3775585, 3775589, 3775591, 3775593, 3775595, 3775599, 3775601, 3775603, 3775605
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 2427427, 2866735?, 2427395, 3104656, 3848869?, 2564347, 2781808, 2446523, 2961660, 2471876, 2861893, 2861895, 2861839, 2861897, 2955390, 2955392, 2955398, 2861887?, 2958117, 4104657, 4104659, 4104677, 4104662, 4104665, 4104685?, 4104697?, 4104700?, 4104705, 4104707, 4104703?, 4104711, 4104692, 3982369?, 2687815?, 2918229, 2918145, 2483309, 2507880, 2512277, 2512279
+Revision Date: Jun 26, 2020 3:39:59 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: General specification below to be met through actual implementation.
+ 
+Category : ASW 
+Runnable / Period:  pr1PinionAg / 1ms 
+Functionality: Estimates physical pinion angle value with relative angle. The SWC gets absolute angle during internal initialization and then updates(estimated) the angle with using relative angle from MPS and TOS during runtime.
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_12655
+Comment 2: [20. 7. 6] 
+Consistency : Checked
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: Execution Time?¡Â?50usec?
+ROM?¡Â?10KB?
+RAM?¡Â?128Byte?
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Newly Developed
+ASIL: D
+Remark: 
+Original ASIL: D
+Limitation: Specific combination of the sensors to be required. 
+1) ETC from this ECU for primary absolute angle signal
+2) ETC from other ECU for second absolute angle signal
+3) External angle sensor for back up absolute angle signal
+4) MHE TOS fot relative angle signal
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

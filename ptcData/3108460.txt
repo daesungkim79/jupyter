@@ -1,0 +1,144 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3108460
+Item Significant Edit Date on Shared Item: Jul 9, 2020 11:40:23 AM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jul 9, 2020 11:40:23 AM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jul 9, 2020 11:40:23 AM
+Root ID: 3108460
+Reference Mode: Author
+References: 4125483xyz
+Contained By: 3108458
+Contains: 
+Type: Design
+Summary: ActrMot
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3108460
+Modified By: 김대성 (p13870)
+Created By: 원우석 (wooseok.won)
+Modified Date: Jul 13, 2020 2:32:15 PM
+Created Date: Feb 5, 2020 12:04:57 PM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 2557742, 2557595
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: upstream downstream
+Description: 
+Downstream Trace Count: 74
+Upstream Trace Count: 1
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 3775399, 3775401, 3775403, 3775405, 3775409, 3775411, 3775413, 3775415, 3775519, 3775521, 3775523, 3775525, 3775853, 3775855, 3775857, 3775859, 3775863, 3775865, 3775867, 3775869, 3775873, 3775875, 3775877, 3775879, 3775933, 3775935, 3775937, 3775939, 3775943, 3775945, 3775947, 3775949, 3775985, 3775987, 3775989, 3775991, 3775995, 3775997, 3775999, 3776001, 3798212, 3798214, 3798216, 3798218, 3798284, 3798286, 3798288, 3798290, 3798441, 3798443, 3798445, 3798447, 3798577, 3798579, 3798581, 3798583, 3798587, 3798589, 3798591, 3798593, 3798597, 3798599, 3798601, 3798603, 3798659, 3798661, 3798663, 3798665, 3798687, 3798689, 3798691, 3798693
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 2720165
+Revision Date: Jul 9, 2020 11:40:23 AM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: General specification below to be met through actual implementation.
+ 
+Category : ECAL
+Runnable / Period:  ir1ActrMot/Init, pr1ActrMot/1ms, pr2ActrMot/1ms, pr3ActrMot/2ms
+Functionality: Deliver motor control related variables to ASW through RTE
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_12640
+Comment 2: [20. 7. 6] 
+Consistency : Checked
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Reused with Modifications
+ASIL: D
+Remark: 
+Original ASIL: QM
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

@@ -1,0 +1,182 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 2520491
+Item Significant Edit Date on Shared Item: Mar 16, 2020 7:26:18 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Mar 16, 2020 7:26:18 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Mar 16, 2020 7:26:18 PM
+Root ID: 2520491
+Reference Mode: Author
+References: 2520492xyz
+Contained By: 3671356
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 2520491
+Modified By: 失奄殿 (gitae.seong)
+Created By: 戚韻莫 (kh_lee)
+Modified Date: Mar 25, 2020 1:47:21 PM
+Created Date: Jun 28, 2019 6:19:52 PM
+Shared Attachments: 
+Authorizing Activity: 3135991
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: downstream
+Description: 
+Downstream Trace Count: 70
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 2524243, 2524245, 2902985, 2902989, 2902993, 2902997, 2903001, 2903007, 2903011, 2903015, 2903021, 2903025, 2903029, 2903033, 2903039, 2903043, 2903047, 2903051, 2903055, 2903059, 2903063, 2903067, 2903071, 2903075, 2903079, 2903083, 2488992, 2488994, 2488996, 2488998, 2489000, 2524995, 2525011, 2525014, 2525016, 2525018, 2525020, 2525022, 2525026, 2525024, 2525028, 2525031, 2525035, 2525033, 2525037, 2525039, 2525041, 2525043, 2525045, 2525047, 2525049, 2525051, 2525053, 2525055, 2525057, 3774663, 3774665, 3774667, 3774669, 3774671, 3774673, 3774675, 3774677, 3774679, 3774681, 3774683, 3774685, 3774687, 3774689, 3774693
+Verified By Pass Count: 31
+Verified By Trace Count: 70
+Verified By Pass Percentage: 44%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: Mar 16, 2020 7:26:18 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Green
+Object Text: RWA Tasks
+ 
+『 Lower number in the priority column to be higher priority 
+ 
+Task namePriorityPartitionStack SizeTimingDescriptionRemark
+InitTask1Mk512InitializeInit Task for BSW　
+InitTaskOsMk2Mk128InitializeInit Task for ISR　
+InitTask1WdgM3Mk128InitializeInit Task for WdgM　
+InitTask2WdgM4Mk128InitializeInit Task for change WdgM modeNeed to consider
+ShutdownTaskWdgM5Wdg128ShutdownShutdown Task for WdgMNeed to consider
+ShutdownTaskD6D128ShutdownShutdown Task for partition D　
+ShutDownTaskB18B1128ShutdownShutdown Task for partition B1　
+ShutDownTaskB27B2128ShutdownShutdown Task for partition B2　
+InitTaskD9D128InitializeInit Task for partition D　
+Init_TaskB110B1128InitializeInit Task for partition B1　
+Init_TaskB211B2128InitializeInit Task for partition B2　
+RteTask1ms12Qm512periodicRTE Qm Task for 1ms period　
+RteTask1msB1_A13B1128periodicRTE B1 Task #1 for 1ms period　
+RteTask1msB214B2128periodicRTE B2 Task for 1ms period　
+RteTask1msD_A15D256periodicRTE D Task #1 for 1ms period　
+RteTask1msB1_B16B1768periodicRTE B1 Task #2 for 1ms period　
+RteTask1msD_B17D128periodicRTE D Task #2 for 1ms period　
+WdgSrvcTask118Wdg128periodicWatchdog Task for WdgM　
+SchMComTask_1ms19Qm768periodicSchM Task for 1ms CAN 　
+SchMTask320Qm512periodicSchM Task for Can, XCP　
+RteTask2msB121B1512periodicRTE B1 Task for 2ms period　
+RteTask2msQm22Qm256periodicRTE Qm Task for 2ms period　
+RteTask2msB223B2256periodicRTE B2 Task for 2ms period　
+RteTask2msD24D768periodicRTE D Task for 2ms period　
+WdgSrvcTask25Wdg128periodicWatchdog Task for McuDiagc　
+SchMTask126Qm512periodicSchM Task for Com　
+RteTask5msB127B1256periodicRTE B1 Task for 5ms period　
+RteTask5msQm28Qm256periodicRTE Qm Task for 5ms period　
+SchMTask229Qm768periodicSchM Task for Service BSW　
+RteTask10msQm30Qm256periodicRTE Qm Task for 10ms period　
+RteTask10msB131B1768periodicRTE B1 Task for 10ms period　
+RteTask10msB232B2256periodicRTE B2 Task for 10ms period　
+RteTask10msD33D128periodicRTE D Task for 10ms period　
+SchMTask434Qm512periodicSchM Task for Proxy　
+DcmTaskD35D1024eventAsynchronous Task for RTE D　
+DcmTaskB136B11024eventAsynchronous Task for RTE B1　
+Rte_Event_Task37Qm768eventAsynchronous RTE Tasks　
+SrvcTask38Qm128eventRTE Qm Task for lower priority　
+RteErrataTask39Qm256eventRTE Qm Task for lowest priority　
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_10745
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Reused with Modifications
+ASIL: 
+Remark: 
+Original ASIL: QM
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: Software Integration Test
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

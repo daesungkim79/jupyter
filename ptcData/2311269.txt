@@ -1,0 +1,139 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 2311269
+Item Significant Edit Date on Shared Item: Feb 3, 2020 10:31:46 AM
+Significant Change Since Item Revision: true
+Significant Edit Date: Apr 27, 2020 3:03:35 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: Heading
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Apr 27, 2020 3:03:35 PM
+Root ID: 2311269
+Reference Mode: Author
+References: 2311270xyz
+Contained By: 3103381
+Contains: 3108458ay, 3108462ay, 3108464ay, 3108466ay
+Type: Design
+Summary: ActrMot
+State: Edit
+Project: /Steering/SBW_LV
+ID: 2311269
+Modified By: ±è´ë¼º (p13870)
+Created By: ±è´ë¼º (p13870)
+Modified Date: Apr 27, 2020 3:03:35 PM
+Created Date: May 7, 2019 10:23:31 PM
+Shared Attachments: 
+Authorizing Activity: 3135991
+Suspect Count: 3
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 2557595
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: upstream suspect downstream
+Description: 
+Downstream Trace Count: 83
+Upstream Trace Count: 3
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 2880655, 2880657, 2880659, 2880661, 2880665, 2880667, 2880669, 2880671, 2880675, 2880677, 2880679, 2880681, 2880685, 2880687, 2880689, 2880691, 2880695, 2880697, 2880699, 2880701, 2880705, 2880707, 2880709, 2880711, 2880715, 2880717, 2880719, 2880721, 2880725, 2880727, 2880729, 2880731, 2880735, 2880737, 2880739, 2880741, 2880745, 2880747, 2880749, 2880751, 2880755, 2880757, 2880759, 2880761, 2880765, 2880767, 2880769, 2880771, 2880775, 2880777, 2880779, 2880781, 2880785, 2880787, 2880789, 2880791, 2880795, 2880797, 2880799, 2880801, 2880805, 2880807, 2880809, 2880811, 2880813, 2880815, 2880817, 2880819, 2880821, 2880823, 2880825, 2880827, 2880829, 2880831, 2880833, 2880835, 2880839, 2880841, 2880843, 2880845, 2885861, 2885863
+Verified By Pass Count: 2
+Verified By Trace Count: 2
+Verified By Pass Percentage: 100%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 2062089?, 2062293?, 2500823?
+Revision Date: Apr 27, 2020 3:03:35 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Green
+Object Text: ActrMot
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: 
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Reused with Modifications
+ASIL: D
+Remark: 
+Original ASIL: QM
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: Software Integration Test
+Source Link: 
+SFA_rpy/ActrMotPkg.sbs :live
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

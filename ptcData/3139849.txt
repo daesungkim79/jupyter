@@ -1,0 +1,237 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3139849
+Item Significant Edit Date on Shared Item: May 4, 2020 10:22:47 AM
+Significant Change Since Item Revision: true
+Significant Edit Date: May 4, 2020 10:22:47 AM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: Comment
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: May 4, 2020 10:22:47 AM
+Root ID: 3139849
+Reference Mode: Author
+References: 3139855xyz
+Contained By: 3139846
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3139849
+Modified By: 畠渋鋭 (Seunggyu.hong)
+Created By: 畠渋鋭 (Seunggyu.hong)
+Modified Date: May 4, 2020 10:22:47 AM
+Created Date: Feb 20, 2020 7:23:33 PM
+Shared Attachments: 
+Authorizing Activity: 3135991
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: none
+Description: 
+Downstream Trace Count: 0
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: May 4, 2020 10:22:47 AM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: [Table] Calibration Array
+
+
+Array NameLong NameImplementation Data TypeLinked Data TypeCategoryApplication Data TypeCal TypePhysical Unit
+ARC_ActvRetMap_VehSpd　float32ary12float32YSpd3ExternalKiloMtrPerHr
+DPC_DampgMap_VehSpd　float32ary12float32YSpd3ExternalKiloMtrPerHr
+EFC_EffortMap_VehSpd　float32ary5float32YSpd3ExternalKiloMtrPerHr
+RFC_RackFMap_VehSpd　float32ary12float32YSpd3ExternalKiloMtrPerHr
+SFC_StatFricAgMap_VehSpd　float32ary12float32YSpd3ExternalKiloMtrPerHr
+STG_DrvrTqGainMap_VehSpd　float32ary10float32YSpd3ExternalKiloMtrPerHr
+VLC_OCPosnMap_VehSpd　float32ary3float32YSpd3ExternalKiloMtrPerHr
+HTC_TqGainMap_VehSpd　float32ary8float32YSpd3ExternalKiloMtrPerHr
+ARC_ActvRetMap_SteerWhlAg　float32ary18float32XAgDeg1ExternalDeg
+ARC_PropGainCur_VehSpd　float32ary10float32XSpd3ExternalKiloMtrPerHr
+DPC_DampgAgMap_SteerWhlAg　float32ary12float32XAgDeg1ExternalDeg
+DPC_DampgMap_SteerWhlAgSpd　float32ary18float32XAgSpd1ExternalDeg
+EFC_EffortMap_SteerWhlAg　float32ary12float32XAgDeg1ExternalDeg
+HTC_TqGainMap_HysTq　float32ary18float32XTq5ExternalNwtMtr
+RFC_BackLashCur_VehSpd　float32ary12float32XSpd3ExternalKiloMtrPerHr
+RFC_RackFMap_RackF　float32ary18float32XF1ExternalNwtMtr
+SES_DampingCoeffCur_SteerWhlAgSpd　float32ary12float32XAgSpd1ExternalDeg
+SES_DiffAgTqCur_SteerWhlAg　float32ary12float32XAgDeg1ExternalDeg
+SES_SoftEndStopAgCur_VehSpd　float32ary12float32XSpd3ExternalKiloMtrPerHr
+SFC_MaxTqCur_VehSpd　float32ary12float32XSpd3ExternalKiloMtrPerHr
+SFC_StatFricAgMap_SteerWhlAg　float32ary12float32XAgDeg1ExternalDeg
+STG_DrvrTqGainMap_DrvrTq　float32ary10float32XTq5ExternalNwtMtr
+VLC_AlignDrvrTqCur_DrvTq　float32ary12float32XTq5ExternalNwtMtr
+VLC_AlignPosnCur_RackPosn　float32ary20float32XLen1ExternalMiliMtr
+VLC_AlignVehSpdCur_VehSpd　float32ary12float32XSpd3ExternalKiloMtrPerHr
+VLC_AlignVelCur_RackVel　float32ary20float32XSpd5ExternalMiliMtrPerSec
+VLC_OCDrvrTqCur_DrvTq　float32ary12float32XTq5ExternalNwtMtr
+VLC_OCPosnMap_RackPosn　float32ary20float32XLen1ExternalMiliMtr
+VLC_OCVehSpdCur_VehSpd　float32ary12float32XSpd3ExternalKiloMtrPerHr
+VLC_OCVelMap_RackVel　float32ary20float32XSpd5ExternalMiliMtrPerSec
+ARC_ActvRetMap　float32ary216float32MapAgSpd1ExternalDeg
+ARC_DrvrTqGainMap　float32ary100float32MapMtrx1ExternalNoUnit
+ARC_TarRetSpdGainMap　float32ary100float32MapMtrx1ExternalNoUnit
+DPC_DampgAgMap　float32ary144float32MapTq5ExternalNwtMtr
+DPC_DampgMap　float32ary216float32MapTq5ExternalNwtMtr
+DPC_DrvrTqGainMap　float32ary100float32MapMtrx1ExternalNoUnit
+EFC_DrvrTqGainMap　float32ary100float32MapMtrx1ExternalNoUnit
+EFC_EffortMap　float32ary60float32MapTq5ExternalNwtMtr
+IRF_DrvrTqGainMap　float32ary100float32MapMtrx1ExternalNoUnit
+RFC_DrvrTqGainMap　float32ary100float32MapMtrx1ExternalNoUnit
+RFC_RackFMap　float32ary216float32MapTq5ExternalNwtMtr
+SFC_DrvrTqGainMap　float32ary100float32MapMtrx1ExternalNoUnit
+SFC_StatFricAgMap　float32ary144float32MapTq5ExternalNwtMtr
+HTC_TqGainMap　float32ary144float32MapTq5ExternalNwtMtr
+VLC_OCPosnMap　float32ary60float32MapMtrx1ExternalNoUnit
+VLC_OCVelMap　float32ary60float32MapMtrx1ExternalNoUnit
+ARC_PropGainCur　float32ary10float32CurMtrx1ExternalNoUnit
+IRF_LoVehSpdFilWghtCur　float32ary10float32CurFac1ExternalNoUnit
+RFC_BackLashCur　float32ary12float32CurMtrx1ExternalNoUnit
+SES_DampingCoeffCur　float32ary12float32CurMtrx1ExternalNoUnit
+SES_DiffAgTqCur　float32ary12float32CurTq5ExternalNwtMtr
+SES_SoftEndStopAgCur　float32ary12float32CurAgDeg1ExternalDeg
+SFC_MaxTqCur　float32ary12float32CurTq5ExternalNwtMtr
+VLC_AlignDrvrTqCur　float32ary12float32CurMtrx1ExternalNoUnit
+VLC_AlignPosnCur　float32ary20float32CurMtrx1ExternalNoUnit
+VLC_AlignVehSpdCur　float32ary12float32CurMtrx1ExternalNoUnit
+VLC_AlignVelCur　float32ary20float32CurMtrx1ExternalNoUnit
+VLC_OCDrvrTqCur　float32ary12float32CurMtrx1ExternalNoUnit
+VLC_OCVehSpdCur　float32ary12float32CurMtrx1ExternalNoUnit
+ARC_FfGainAry　float32ary2float32CAMtrx1ExternalNoUnit
+ARC_ProfFfAry　float32ary2float32CAMtrx1ExternalNoUnit
+ARC_ProfInpAry　float32ary2float32CAMtrx1ExternalNoUnit
+ARC_ProfOutpAry　float32ary4float32CAMtrx1ExternalNoUnit
+ARC_ProfSysAry　float32ary4float32CAMtrx1ExternalNoUnit
+HTC_TqFilDenAry　float32ary5float32CAMtrx1ExternalNoUnit
+HTC_TqFilNumAry　float32ary5float32CAMtrx1ExternalNoUnit
+IRF_HiVehSpdFilDenAry　float32ary5float32CAMtrx1ExternalNoUnit
+IRF_HiVehSpdFilNumAry　float32ary5float32CAMtrx1ExternalNoUnit
+IRF_LoVehSpdFilDenAry　float32ary5float32CAMtrx1ExternalNoUnit
+IRF_LoVehSpdFilNumAry　float32ary5float32CAMtrx1ExternalNoUnit
+SFC_StatFricLpfDenAry　float32ary5float32CAMtrx1ExternalNoUnit
+SFC_StatFricLpfNumAry　float32ary5float32CAMtrx1ExternalNoUnit
+SPM_DrvrTqLpfDenAry　float32ary5float32CAMtrx1ExternalNoUnit
+SPM_DrvrTqLpfNumAry　float32ary5float32CAMtrx1ExternalNoUnit
+SPM_EstimdLatALpfDenAry　float32ary5float32CAMtrx1ExternalNoUnit
+SPM_EstimdLatALpfNumAry　float32ary5float32CAMtrx1ExternalNoUnit
+SPM_RackFLpfDenAry　float32ary5float32CAMtrx1ExternalNoUnit
+SPM_RackFLpfNumAry　float32ary5float32CAMtrx1ExternalNoUnit
+SPM_SensrLatALpfDenAry　float32ary5float32CAMtrx1ExternalNoUnit
+SPM_SensrLatALpfNumAry　float32ary5float32CAMtrx1ExternalNoUnit
+SPM_SensrYawRateLpfDenAry　float32ary5float32CAMtrx1ExternalNoUnit
+SPM_SensrYawRateLpfNumAry　float32ary5float32CAMtrx1ExternalNoUnit
+SPM_SteerWhlAgSpdLpfDenAry　float32ary5float32CAMtrx1ExternalNoUnit
+SPM_SteerWhlAgSpdLpfNumAry　float32ary5float32CAMtrx1ExternalNoUnit
+SPM_SteerWhlAgSpdLpfDenAry2　float32ary5float32CAMtrx1ExternalNoUnit
+SPM_SteerWhlAgSpdLpfNumAry2　float32ary5float32CAMtrx1ExternalNoUnit
+SPM_VehSpdLpfDenAry　float32ary5float32CAMtrx1ExternalNoUnit
+SPM_VehSpdLpfNumAry　float32ary5float32CAMtrx1ExternalNoUnit
+SPM_TireWhlAgLpfDenAry　float32ary5float32CAMtrx1ExternalNoUnit
+SPM_TireWhlAgLpfNumAry　float32ary5float32CAMtrx1ExternalNoUnit
+VLC_PosnDiffLpfDenAry　float32ary5float32CAMtrx1ExternalNoUnit
+VLC_PosnDiffLpfNumAry　float32ary5float32CAMtrx1ExternalNoUnit
+VLC_PosnDiffVelLpfDenAry　float32ary5float32CAMtrx1ExternalNoUnit
+VLC_PosnDiffVelLpfNumAry　float32ary5float32CAMtrx1ExternalNoUnit
+SES_SteerWhlAgSpdLpfDenAry　float32ary5float32CAMtrx1ExternalNoUnit
+SES_SteerWhlAgSpdLpfNumAry　float32ary5float32CAMtrx1ExternalNoUnit
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: 
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: 
+ASIL: 
+Remark: 
+Original ASIL: 
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

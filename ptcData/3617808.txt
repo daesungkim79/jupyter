@@ -1,0 +1,150 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3617808
+Item Significant Edit Date on Shared Item: Jul 9, 2020 1:39:16 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jul 9, 2020 1:39:16 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jul 9, 2020 1:39:16 PM
+Root ID: 3617808
+Reference Mode: Author
+References: 4125188xyz
+Contained By: 3617797
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3617808
+Modified By: 김대성 (p13870)
+Created By: 정다은 (daeun.jung)
+Modified Date: Jul 13, 2020 2:32:22 PM
+Created Date: Mar 11, 2020 9:47:26 AM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 2
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 3145225, 2401486
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: upstream suspect downstream
+Description: 
+Downstream Trace Count: 2
+Upstream Trace Count: 2
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 2062153?, 2402671?
+Revision Date: Jul 9, 2020 1:39:16 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: General specification below to be met through actual implementation.
+ 
+Category : CDD 
+Runnable / Period:  SpiB2_Init / Init, SpiB2_AsyncTx / 1ms, SpiB2_RdIB / 1ms, SpiB2_WrIB / 1ms
+Functionality: It is IO Driver. It acquires raw signal of IC in PartnB2. It executes initializing QSPI Kernel registers and updating Read/Write buffer. It transmits MPS signal to IO hardware abstraction layer when each function is called.
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_14518
+Comment 2: [20. 7. 6] 
+Consistency : Checked
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: Execution Time?≤?50usec?
+ROM?≤?10KB?
+RAM?≤?128Byte?
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Reused with Modifications
+ASIL: B
+Remark: 
+Original ASIL: QM
+Limitation: Specific combination of the sensors to be required. 
+1) ETC from this ECU for primary absolute angle signal
+2) ETC from other ECU for second absolute angle signal
+3) External angle sensor for back up absolute angle signal
+4) MHE TOS fot relative angle signal
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

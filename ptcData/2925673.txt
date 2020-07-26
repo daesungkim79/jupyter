@@ -1,0 +1,96 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 2925673
+Significant Change Since Item Revision: true
+Significant Edit Date: Jan 22, 2020 9:38:38 PM
+Revision Increment Date: 
+Revision: 
+Bookmarks: 
+Type: Activity
+Summary: [FW] : FBL Development
+State: Completed
+Project: /Steering/SBW_LV
+Assigned User: ¼º±âÅÂ (gitae.seong), Vivek Singh (vivek.singh), Yadunandan Kasu (yadunandan.kasu)
+ID: 2925673
+Modified By: Vivek Singh (vivek.singh)
+Created By: Vivek Singh (vivek.singh)
+Modified Date: Jan 22, 2020 9:38:38 PM
+Created Date: Nov 28, 2019 2:44:01 PM
+Changes Authorized: 
+Comments: [Vivek Singh (vivek.singh), Nov 28, 2019 2:44:01 PM KST]
+[¹ÚÁøÈ£ (jinho.park), Nov 28, 2019 2:39:31 PM KST]
+Meet requirement specification as discussed for this release
+Priority: Medium
+Authorizes Changes To: 
+Open Change Package Count: 0
+Change Package Count: 13
+Change Package Entry Count: 64
+Days in Current State: 182
+Source Project: 
+Description: 1. This item will be used for managing and controlling flash bootloader software development in MSI.
+2. Related members need to be assigned such as Accountable Manger, Assiged User, Test Group, etc.
+3. Start and end date of this baseline need to be updated.
+ 
+** FBLS: Flash BootLoader Software
+ 
+As per Requirement Traceability Metrics (attached) artifacts and software delivery to be done.
+ 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+eMidas : Root Cause Analysis added (Issues observed during testing)
+ 
+Validation : Full test report with comments added by developer. Any further modification due to Failed cases in this test report will be handled in F002-T1 release (next release)
+Authorized Change Count: 0
+Realizes: 2925475
+Date Completed: Jan 22, 2020 9:38:38 PM
+Activity Phase: Closed
+Project State: Active
+Project Phase: Open
+Source Trace: 
+Due Date: Apr 30, 2020 12:00:00 AM
+Accountable Manager: Vivek Singh (vivek.singh)
+Closed Change Package Count: 13
+Activity Type: New Document and Member
+Members To Be Notified: ±èº¸Çö (bohyun.k), ½ÅÃ¢¿ì (changwoo.shin), Á¤´ÙÀº (daeun.jung), ½Åµ¿ÈÆ (donghoon.shin), ÀÌÀç¿ì(jaewoo3.lee) (jaewoo3.lee), ¹ÚÁ¦»ó (js_park), ±¸Á¤¸ð (jungmo.koo), ÀÌ±¤Çü (kh_lee), ¿ÀÅÂÀÎ (p14122), ÀÌ¼ºÈÆ (p14506), ¹Î½Â±â (seunggi.min), È«½Â±Ô (Seunggyu.hong), Á¶¼Ò¿µ (soyoung.jo), ¿ø¿ì¼® (wooseok.won), Á¶¿µÈÆ (yh.jo)
+Confirmation Required ?: false
+Start Date: Nov 25, 2019 GMT+05:30
+Review Result: State has been changed to Standby.
+Vivek will be added in CM Engineer filed by tomorrow.
+Domain (Where): Input (Customer/Legal)
+Submitted Change Package Count: 0
+Process Phase: Closed
+Open Activity Aging (Days): 211-240
+Related Source Project: 
+CM Engineer FVA: ½ÅÃ¢¿ì (changwoo.shin), ÀÌµÎÁø (dustin.lee), ±è´ë¼º (p13870), joowheun.lee(ÀÌÁÖÈÍ) (p14344), ÀÌ¼ºÈÆ (p14506), ÇÔ¼³Èñ (seolhee.ham), shyun.kim(±è½ÂÇö) (shyun.kim), Vivek Singh (vivek.singh), ±è¿µ¹ü (yb.kim)
+Increment Revision: false
+Task For: 
+Estimated Effort (hours): 100 hours
+Actual Effort (hours): 23 hours
+Total Actual Effort (hours): 23 hours
+Total Estimated Effort (hours): 100 hours
+Task Phase: Closed
+Activity For: 
+Defects For Activity: 
+Backward Activities For SW Baseline: 
+Backward Activities For Issue: 
+Backward Review-Activity: 
+Actual Effort (Plain Text): 
+
+Attachments: 
+[CANOO][SBW][LV]_Traceability_Matrix.xlsx (38776 bytes)
+[CANOO][SBW][LV]_FBL_SUD_V1.0.docx (1273525 bytes)
+[CANOO][SBW][LV]_FBL_STA_V1.0.pdf (792254 bytes)
+Canoo_Bootloader_Specification_RevC.pdf (514078 bytes)
+[CANOO][SBW][LV]_CAN_Diagnostics_ID.xlsx (50279 bytes)
+Evelozcity_Diagnostics_Specification.pdf (201504 bytes)
+[CANOO][SBW][LV]_FBL_V&V_Report_FullValidation.xlsx (781153 bytes)
+[CANOO][SBW][LV]_FBL_RootCauseAnalysis_Testbench_set-up.pptx (198624 bytes)
+[CANOO][SBW][LV]_FBL_SUT_V1.1.xlsx (11475341 bytes)
+[CANOO][SBW][LV]_FBL_ReleaseNotes.docx (50845 bytes)
+[CANOO][SBW][LV]_FBL_V&V_Report.xlsx (21073 bytes)
+[CANOO][SBW][LV]_FBL_V&V_TraceLogs.zip (23817022 bytes)
+
+Forward Relationships: 
+
+Backward Relationships: 
+

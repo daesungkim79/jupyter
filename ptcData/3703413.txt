@@ -1,0 +1,142 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3703413
+Item Significant Edit Date on Shared Item: Mar 18, 2020 9:20:45 AM
+Significant Change Since Item Revision: true
+Significant Edit Date: Mar 18, 2020 9:23:05 AM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Mar 18, 2020 9:23:05 AM
+Root ID: 2520469
+Reference Mode: Reuse
+References: 2520470xyz
+Contained By: 3703396
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3703413
+Modified By: 성기태 (gitae.seong)
+Created By: 원우석 (wooseok.won)
+Modified Date: Mar 24, 2020 6:44:57 PM
+Created Date: Mar 18, 2020 9:23:05 AM
+Shared Attachments: 
+Authorizing Activity: 
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: downstream
+Description: 
+Downstream Trace Count: 2
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 2312514, 2312515
+Verified By Pass Count: 2
+Verified By Trace Count: 2
+Verified By Pass Percentage: 100%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: Mar 18, 2020 9:23:05 AM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Green
+Object Text: [Table] Total usage for Rom, Ram
+ 
+Rom UsageRam Usage
+Less than 80%Less than 80%
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_14595
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Reused with Modifications
+ASIL: 
+Remark: 
+Original ASIL: QM
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: Software Integration Test
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

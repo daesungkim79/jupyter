@@ -1,0 +1,138 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3103381
+Item Significant Edit Date on Shared Item: Jan 31, 2020 4:22:22 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jul 8, 2020 2:16:54 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: Heading
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jul 8, 2020 2:16:54 PM
+Root ID: 3103381
+Reference Mode: Author
+References: 3103382xyz
+Contained By: 2312420
+Contains: 2311269ay, 3752857ay, 3106205ay, 3106209ay, 3106211ay, 3106318ay, 2313466ay, 2313468ay, 4004941ay, 3106213ay, 3106320ay, 3106217ay, 3106219ay, 3106222ay, 3127832ay, 3106224ay, 3106226ay, 3106228ay, 3106230ay, 3106232ay, 3106322ay, 3106236ay, 3106238ay, 3106240ay, 3775047ay, 3753791ay, 3106246ay, 3106248ay, 4126933ay, 3106250ay, 2313470ay, 2313472ay, 2313474ay, 2313476ay, 3106269ay, 3106271ay, 3106273ay, 3106277ay, 2313478ay, 3616895ay, 3798245ay, 3106283ay, 3106285ay, 2313480ay, 2313482ay, 2313484ay, 2313486ay, 2313488ay, 3106438ay, 3106440ay, 3106287ay, 4164026ay, 3106291ay, 3106293ay, 3106295ay, 4125079ay
+Type: Design
+Summary: Common Software Component
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3103381
+Modified By: 원우석 (wooseok.won)
+Created By: 김대성 (p13870)
+Modified Date: Jul 8, 2020 2:16:54 PM
+Created Date: Jan 22, 2020 1:31:27 PM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: none
+Description: 
+Downstream Trace Count: 0
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: Jul 8, 2020 2:16:54 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: Common Software Component
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: 
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: 
+ASIL: 
+Remark: 
+Original ASIL: 
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

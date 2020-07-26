@@ -1,0 +1,185 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 4009838
+Item Significant Edit Date on Shared Item: Mar 23, 2020 5:34:20 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: May 28, 2020 5:31:28 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: Comment
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: May 28, 2020 5:31:28 PM
+Root ID: 3749730
+Reference Mode: Reuse
+References: 3749731xyz
+Contained By: 3127499
+Contains: 
+Type: Design
+Summary: Interface btw ApplComIf & ApplComSigProcess
+State: Edit
+Project: /Steering/SBW_LV
+ID: 4009838
+Modified By: ±èº¸Çö (bohyun.k)
+Created By: ±èº¸Çö (bohyun.k)
+Modified Date: May 28, 2020 5:31:28 PM
+Created Date: May 28, 2020 5:31:28 PM
+Shared Attachments: 
+Authorizing Activity: 
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: none
+Description: 
+Downstream Trace Count: 0
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: May 28, 2020 5:31:28 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: 1. ApplComIf and ApplComSigProcess shall exchange the data between them via one global variable as struct data type (ApplComSigProcess).
+2. This global structure variable shall have subset of structures (based on the function) that contains inputs and outputs. For example, lets say ApplComSigProcess.c has a function that compares two VehSpd sources and outputs the average VehSpd and validity of the VehSpd. The inputs to this function is VehSpd1, VehSpd2 and the outputs of this function would be VehSpd and VehSpdVld.
+3. ApplComIf updates the inputs VehSpd1 and VehSpd2 via Rte_Read_xx from other SWCs and then calls the ApplComSigProcess function.
+4. ApplComSigProcess returns the output, which shall be used by ApplComIf to upate Rte_Write_xx buffer.
+5. Example code is give below.  
+	*. /***********************************
+Structure definition example
+************************************/
+APPLCOM_SIG_PROCESS ApplComSigProcess;
+
+	
+	*. typedef struct{
+   VEHSPD_COMP VehSpdCmp;
+   WHLSPD_COMP WhlSpdCmp;
+}APPLCOM_SIG_PROCESS;
+
+	
+	*. typedef struct{
+    INPUT_VEHSPD_COMP       in;
+    OUTPUT_VEHSPD_COMP   out;
+}VEHSPD_COMP;	
+	*. 
+
+typedef struct{
+    uint8   u8VehSpd1;
+    uint8   u8VehSpd2;
+}INPUT_VEHSPD_COMP;
+
+	
+	*. typedef struct{
+    uint8 u8VehSpd;
+    uint8 u8VehSpdVld
+}OUTPUT_VEHSPD_COMP;
+/***********************************
+Function call example
+************************************/
+void pr1ApplComIf_VehSpdLogic(void)
+{
+       ApplComSigProcess.VehSpdCmp.in.u8VehSpd1 = Rte_Read_xx();
+       ApplComSigProcess.VehSpdCmp.in.u8VehSpd2 = Rte_Read_xx();
+ 
+       ApplComSigProcess_VehSpdLogic(ApplComSigProcess.VehSpdCmp.in, &ApplComSigProcess.VehSpdCmp.out)
+ 
+       Rte_Write_xx(ApplComSigProcess.VehSpdCmp.out.u8VehSpd);
+       Rte_Write_xx(ApplComSigProcess.VehSpdCmp.out.u8VehSpdVld);
+}
+Text Attachments: 
+1_ApplCom_Arch_CanIfCallouts.jpg (47953 bytes)
+PTC_515238698711176353.png (72673 bytes)
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: 
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: 
+ASIL: 
+Remark: 
+Original ASIL: 
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

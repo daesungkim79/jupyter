@@ -1,0 +1,177 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3798256
+Item Significant Edit Date on Shared Item: Jun 26, 2020 2:48:26 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jun 26, 2020 2:48:26 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: Comment
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jun 26, 2020 2:48:26 PM
+Root ID: 3798256
+Reference Mode: Author
+References: 3981465xyz
+Contained By: 3798248
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3798256
+Modified By: Á¶¿µÈÆ (yh.jo)
+Created By: Á¶¿µÈÆ (yh.jo)
+Modified Date: Jun 26, 2020 2:48:26 PM
+Created Date: Mar 27, 2020 9:20:25 AM
+Shared Attachments: 
+Authorizing Activity: 3135991
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: none
+Description: 
+Downstream Trace Count: 0
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: Jun 26, 2020 2:48:26 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: [Table] Send/Receiver Interfaces
+Port Name	Port Long Name	Port Type	Port Interface	Data Element	
+CogMx12th	CogMx12th	S	CogM1	CogMBuf	
+CogMx6th	CogMx6th	S	CogM1	CogMBuf	
+CogMy12th	CogMy12th	S	CogM1	CogMBuf	
+CogMy6th	CogMy6th	S	CogM1	CogMBuf	
+IdMx2nd	IdMx2nd	S	RplCnclCoeff1	Coeff	
+IdMx3rd	IdMx3rd	S	RplCnclCoeff1	Coeff	
+IdMy2nd	IdMy2nd	S	RplCnclCoeff1	Coeff	
+IdMy3rd	IdMy3rd	S	RplCnclCoeff1	Coeff	
+IqMx2nd	IqMx2nd	S	RplCnclCoeff1	Coeff	
+IqMx3rd	IqMx3rd	S	RplCnclCoeff1	Coeff	
+IqMy2nd	IqMy2nd	S	RplCnclCoeff1	Coeff	
+IqMy3rd	IqMy3rd	S	RplCnclCoeff1	Coeff	
+MotAgEtcOffs	MotAgEtcOffs	S	MotAg2	Rad	
+NomKe	NomKe	S	EstmdKe1	VoltSecPerRad	
+NomR	NomR	S	EstmdR1	VoltSecPerRad	
+PinionAgOffs	PinionAgOffs	S	SteerWhlAg1	Ag	
+RackPosnOffs	RackPosnOffs	S	RackPosn2	RackPosn	
+SteerWhlTq1Offs	SteerWhlTq1Offs	S	SteerWhlTq1	Tq	
+EtcCalFlg	EtcCalFlg	S	Flg1	Flg	
+EtcRstReq	EtcRstReq	S	Flg1	Flg	
+RackAgCalFlg	RackAgCalFlg	S	Flg1	Flg	
+TrimReqToOtherEcu	TrimReqToOtherEcu	S	Flg1	Flg	
+SteerWhlTq2Offs	SteerWhlTq1	S	SteerWhlTq1	Tq	
+RackAgOffs	SteerWhlAg1	S	SteerWhlAg1	Ag	
+BattOffCalTrgFg	BattOffCalTrgFg	R	Flg1	Flg	
+GateDrvMode	GateDrvMode	R	GateDrvMod1	GDMod	
+MotAgEtcRaw	MotAgEtcRaw	R	MotAg2	Rad	
+OdoMeterAccum	OdoMeterAccum	R	Odo1	Odo	
+PhaI1Raw	PhaI1Raw	R	Cnt2	Cnt	
+PhaI2Raw	PhaI2Raw	R	Cnt2	Cnt	
+PinionAgRaw	PinionAgRaw	R	SteerWhlAg1	Ag	
+RackAgRaw	RackAgRaw	R	SteerWhlAg1	Ag	
+RackPosnRaw	RackPosnRaw	R	RackPosn2	RackPosn	
+SteerMod	SteerMod	R	SteerMod1	SteerMod	
+SteerWhlTq1Raw	SteerWhlTq1Raw	R	SteerWhlTq1	Tq	
+SteerWhlTq2Raw	SteerWhlTq2Raw	R	SteerWhlTq1	Tq	
+TrimReqSrv_OtherEcu	TrimReqSrv_OtherEcu	R	Flg1	Flg	
+TrimReqSrv_ThisEcu	TrimReqSrv_ThisEcu	R	Flg1	Flg
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: 
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: 
+ASIL: 
+Remark: 
+Original ASIL: 
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

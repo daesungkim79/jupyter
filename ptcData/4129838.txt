@@ -1,0 +1,147 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 4129838
+Item Significant Edit Date on Shared Item: Jul 9, 2020 1:24:26 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jul 9, 2020 1:24:26 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jul 9, 2020 1:24:26 PM
+Root ID: 3796706
+Reference Mode: Author
+References: 4129944xyz
+Contained By: 4129839
+Contains: 
+Type: Design
+Summary: General specification
+State: Edit
+Project: /Steering/SBW_LV
+ID: 4129838
+Modified By: 김대성 (p13870)
+Created By: 신창우 (changwoo.shin)
+Modified Date: Jul 13, 2020 2:32:20 PM
+Created Date: Jun 26, 2020 1:22:26 PM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 1
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 2557758, 2557621
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: upstream suspect downstream
+Description: 
+Downstream Trace Count: 2
+Upstream Trace Count: 1
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 2403133?
+Revision Date: Jul 9, 2020 1:24:26 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: General specification below to be met through actual implementation.
+ 
+MotAg calculates the mechanical and electrical motor angle based on the motor position data from the SPI internal buffers. 
+Execution time: 62.5us
+Storage:  ROM <10KB, RAM < 512Byte
+Communication resource: None
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_16753
+Comment 2: [20. 7. 6] 
+Consistency : Checked
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: Execution Time?≤?50usec?
+ROM?≤?10KB?
+RAM?≤?128Byte?
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Reused with Modifications
+ASIL: D
+Remark: 
+Original ASIL: QM
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

@@ -1,0 +1,147 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3752862
+Item Significant Edit Date on Shared Item: Jul 9, 2020 11:42:38 AM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jul 9, 2020 11:42:38 AM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jul 9, 2020 11:42:38 AM
+Root ID: 3752862
+Reference Mode: Author
+References: 4164155xyz
+Contained By: 3752856
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3752862
+Modified By: seonggwon.jeong (p13985)
+Created By: Á¶¿µÈÆ (yh.jo)
+Modified Date: Jul 20, 2020 9:27:14 AM
+Created Date: Mar 23, 2020 8:55:23 PM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 2
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 4124923
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: upstream suspect downstream
+Description: 
+Downstream Trace Count: 1
+Upstream Trace Count: 10
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 2525140?, 2862286?, 2525142, 2525144, 2850859, 2850861, 2850863, 2850865, 2850867, 2851938
+Revision Date: Jul 9, 2020 11:42:38 AM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: General specification below to be met through actual implementation.
+
+
+Category : ASW 
+Runnable / Period:  pr1AnalyticRec / 8ms 
+Functionality: The steering system should log critical events for diagnostic, maintenance, and performance monitoring purposes. This section details the events that trigger a log, and the data that needs to be stored for subsequent download and offline analysis.
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_16737
+Comment 2: [20. 7. 6] 
+Consistency : Checked
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: Execution Time??¡Â?50usec?
+ROM?¡Â?10KB?
+RAM?¡Â?128Byte
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Newly Developed
+ASIL: QM
+Remark: 
+Original ASIL: QM
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: Software Integration Test
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

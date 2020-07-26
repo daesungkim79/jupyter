@@ -1,0 +1,180 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3703412
+Item Significant Edit Date on Shared Item: Mar 18, 2020 9:23:52 AM
+Significant Change Since Item Revision: true
+Significant Edit Date: Mar 18, 2020 9:23:52 AM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Mar 18, 2020 9:23:52 AM
+Root ID: 2520471
+Reference Mode: Author
+References: 3703415xyz
+Contained By: 3703396
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3703412
+Modified By: 성기태 (gitae.seong)
+Created By: 원우석 (wooseok.won)
+Modified Date: Mar 24, 2020 6:33:09 PM
+Created Date: Mar 18, 2020 9:23:05 AM
+Shared Attachments: 
+Authorizing Activity: 3135991
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: downstream
+Description: 
+Downstream Trace Count: 24
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 2524995, 2525011, 2525014, 2525016, 2525018, 2525020, 2525022, 2525026, 2525024, 2525028, 2525031, 2525035, 2525033, 2525037, 2525039, 2525041, 2525043, 2525045, 2525047, 2525049, 2525051, 2525053, 2525055, 2525057
+Verified By Pass Count: 0
+Verified By Trace Count: 24
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: Mar 18, 2020 9:23:52 AM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Green
+Object Text: [Table] Stack usage per Tasks
+ 
+Task nameStack Usage
+InitTaskLess than 80%
+InitTaskOsMkLess than 80%
+InitTask1WdgMLess than 80%
+InitTask2WdgMLess than 80%
+ShutdownTaskWdgMLess than 80%
+ShutdownTaskDLess than 80%
+ShutDownTaskB1Less than 80%
+ShutDownTaskB2Less than 80%
+InitTaskDLess than 80%
+Init_TaskB1Less than 80%
+Init_TaskB2Less than 80%
+RteTask1msLess than 80%
+RteTask1msB1_ALess than 80%
+RteTask1msB2Less than 80%
+RteTask1msD_ALess than 80%
+RteTask1msB1_BLess than 80%
+RteTask1msD_BLess than 80%
+WdgSrvcTask1Less than 80%
+SchMComTask_1msLess than 80%
+SchMTask3Less than 80%
+RteTask2msB1Less than 80%
+RteTask2msQmLess than 80%
+RteTask2msB2Less than 80%
+RteTask2msDLess than 80%
+WdgSrvcTaskLess than 80%
+SchMTask1Less than 80%
+RteTask5msB1Less than 80%
+RteTask5msQmLess than 80%
+SchMTask2Less than 80%
+RteTask10msQmLess than 80%
+RteTask10msB1Less than 80%
+RteTask10msB2Less than 80%
+RteTask10msDLess than 80%
+SchMTask4Less than 80%
+DcmTaskDLess than 80%
+DcmTaskB1Less than 80%
+Rte_Event_TaskLess than 80%
+SrvcTaskLess than 80%
+RteErrataTaskLess than 80%
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_14596
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Reused with Modifications
+ASIL: 
+Remark: 
+Original ASIL: QM
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: Software Integration Test
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

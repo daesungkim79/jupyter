@@ -1,0 +1,187 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3811613
+Item Significant Edit Date on Shared Item: Jul 10, 2020 5:10:39 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jul 10, 2020 5:10:39 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: Comment
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jul 10, 2020 5:10:39 PM
+Root ID: 3811613
+Reference Mode: Author
+References: 3992236xyz
+Contained By: 3811614
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3811613
+Modified By: 원우석 (wooseok.won)
+Created By: 김보현 (bohyun.k)
+Modified Date: Jul 10, 2020 5:10:39 PM
+Created Date: Mar 27, 2020 6:29:57 PM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: none
+Description: 
+Downstream Trace Count: 0
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: Jul 10, 2020 5:10:39 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: [Table] Send/Receiver Interfaces
+Port NamePort Long NamePort TypePort InterfaceData Element
+ThisEcuNmChassisThis ECU Nm Chassis CommandRVICM_NMCmd_Chassis1VICM_NMCmd_Chassis1
+ThisEcuNmChassisSigErrThis ECU Nm Chassis Command Signal ErrorRFlg1Flg
+ThisEcuNmChassisToutErrThis ECU Nm Chassis Command Time Out ErrorRFlg1Flg
+OtherEcuNmChassisOther ECU Nm Chassis CommandRVICM_NMCmd_Chassis1VICM_NMCmd_Chassis1
+OtherEcuNmChassisSigErrOther ECU Nm Chassis Command Signal ErrorRFlg1Flg
+OtherEcuNmChassisToutErrOther ECU Nm Chassis Command Time Out ErrorRFlg1Flg
+ThisECUSysEnaSigFlgSystem Enable Signal Flag From This ECURFlg1Flg
+OtherECUSysEnaSigFlgSystem Enable Signal Flag From Other ECURFlg1Flg
+OtherECUSysEnaSigInVldOther ECU System Enable Signal ValidityRFlg1Flg
+SteerWhlTqSteer Wheel TorqueRSteerWhlTq1Tq
+SteerWhlTqVldSteer Wheel Torque Valid StatusRFlg1Flg
+ThisEcuSteerModeCmdThis ECU Steer Mode CommandRSbwSysMod1SbwSysMod
+ThisEcuSteerModeCmdSigErrThis ECU Steer Mode Command Signal ErrorRFlg1Flg
+OtherEcuSteerModeCmdOther ECU Steer Mode CommandRSbwSysMod1SbwSysMod
+OtherEcuSteerModeCmdSigErrOther ECU Steer Mode Command Signal ErrorRFlg1Flg
+ThisEcuExtRackPosnCmdThis ECU External Rack Position CommandRRackPosn2RackPosn
+ThisEcuExtRackPosnCmdStThis ECU External Rack Position Command StateRSts4Sts
+OtherEcuExtRackPosnCmdOther ECU External Rack Position CommandRRackPosn2RackPosn
+OtherEcuExtRackPosnCmdStOther ECU External Rack Position Command StateRSts4Sts
+ThisEcuExtSteerAgCmdThis ECU External Steering Wheel Angle CommandRSteerWhlAg1Ag
+ThisEcuExtSteerAgCmdStThis ECU External Steering Wheel Angle Command StateRSts4Sts
+OtherEcuExtSteerAgCmdOther ECU External Steering Wheel Angle CommandRSteerWhlAg1Ag
+OtherEcuExtSteerAgCmdStOther ECU External Steering Wheel Angle Command StateRSts4Sts
+ThisEcuVICMVehSpdThis ECU VICM Vehicle SpeedRVehSpd2Spd
+ThisEcuVICMVehSpdSigErrThis ECU VICM Vehicle Speed Signal ErrorRFlg1Flg
+ThisEcuEBCMVehSpdThis ECU EBCM Vehicle SpeedRVehSpd2Spd
+ThisEcuEBCMVehSpdSigErrThis ECU EBCM Vehicle Speed Signal ErrorRFlg1Flg
+OtherEcuVICMVehSpdOther ECU VICM Vehicle SpeedRVehSpd2Spd
+OtherEcuVICMVehSpdSigErrOther ECU VICM Vehicle Speed Signal ErrorRFlg1Flg
+OtherEcuEBCMVehSpdOther ECU EBCM Vehicle SpeedRVehSpd2Spd
+OtherEcuEBCMVehSpdSigErrOther ECU EBCM Vehicle Speed Signal ErrorRFlg1Flg
+ThisEcuExtIfAvlStTmpThis ECU Temporary External Interface Available State RSts2Sts
+ThisEcuExtIfActvStTmpThis ECU Temporary External Interface Active State RSts2Sts
+OtherEcuExtIfActvStTmpOther ECU Temporary External Interface Active State RSts2Sts
+EcuIdECU IdentifierREcuId2EcuId
+ApplModECU Application ModeRApplMod1CurrentMode
+NmChassisNm Chassis CommandSVICM_NMCmd_Chassis1VICM_NMCmd_Chassis1
+NmChassisTxSigNm Chassis Command for Tx SignalSSts1Sts
+SysEnaSigFlgSystem Enable Signal FlagSFlg1Flg
+ExtRackPosnCmdExternal Rack Position CommandSRackPosn2RackPosn
+ExtRackPosnCmdStExternal Rack Position Command StateSSts4Sts
+ExtSteerAgCmdExternal Steering Wheel Angle CommandSSteerWhlAg1Ag
+ExtSteerAgCmdStExternal Steering Wheel Angle Command StateSSts4Sts
+ExtIfAvlStExternal Interface Available State SSts2Sts
+ExtIfActvStExternal Interface Active State SSts2Sts
+SteerModeCmdConsolidated Steer Mode CommandSSbwSysMod1SbwSysMod
+VehSpdVehicle Speed SVehSpd2Spd
+VehSpdVldVehicle Speed ValiditySFlg1Flg
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: 
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: 
+ASIL: 
+Remark: 
+Original ASIL: 
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

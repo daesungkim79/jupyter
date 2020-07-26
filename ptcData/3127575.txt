@@ -1,0 +1,147 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3127575
+Item Significant Edit Date on Shared Item: Jul 9, 2020 11:58:13 AM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jul 9, 2020 11:58:13 AM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jul 9, 2020 11:58:13 AM
+Root ID: 3111399
+Reference Mode: Author
+References: 4125110xyz
+Contained By: 3127579
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3127575
+Modified By: seonggwon.jeong (p13985)
+Created By: ¿ø¿ì¼® (wooseok.won)
+Modified Date: Jul 14, 2020 10:23:24 AM
+Created Date: Feb 19, 2020 4:48:33 PM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 7
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 3125960, 2401452
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: upstream suspect downstream
+Description: 
+Downstream Trace Count: 58
+Upstream Trace Count: 9
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 3775299, 3775301, 3775303, 3775305, 3775319, 3775321, 3775323, 3775325, 3775339, 3775341, 3775343, 3775345, 3775349, 3775351, 3775353, 3775355, 3775421, 3775423, 3775425, 3775427, 3775431, 3775433, 3775435, 3775437, 3775455, 3775457, 3775459, 3775461, 3775509, 3775511, 3775513, 3775515, 3775569, 3775571, 3775573, 3775575, 3775589, 3775591, 3775593, 3775595, 3775599, 3775601, 3775603, 3775605, 3775667, 3775669, 3775671, 3775673, 3775747, 3775749, 3775751, 3775753, 3775777, 3775779, 3775781, 3775783
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 3616904?, 3969049?, 3967658?, 3967901?, 3103899, 2431657?, 2431659?, 2486409?, 2062172
+Revision Date: Jul 9, 2020 11:58:13 AM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: General specification below to be met through actual implementation.
+
+
+Category : ASW
+Runnable / Period: FailrMgr_Init/Init, pr1FailrMgr/2ms, ir1FailrReactnOvrdSvc/Opset
+Functionality: Receives the raw information for failure status from DemProxy and classifies it. And transmits flag signals for each failure to ASW components.
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_15814
+Comment 2: [20. 7. 6] 
+Consistency : Checked
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: Execution Time?¡Â?50usec?
+ROM?¡Â?10KB?
+RAM?¡Â?128Byte?
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Reused with Modifications
+ASIL: D
+Remark: 
+Original ASIL: D
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

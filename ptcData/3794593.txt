@@ -1,0 +1,154 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3794593
+Item Significant Edit Date on Shared Item: Jul 9, 2020 1:27:09 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jul 9, 2020 1:27:09 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jul 9, 2020 1:27:09 PM
+Root ID: 3794593
+Reference Mode: Author
+References: 4126994xyz
+Contained By: 3157523
+Contains: 
+Type: Design
+Summary: General specification
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3794593
+Modified By: ±è´ë¼º (p13870)
+Created By: Yadunandan Kasu (yadunandan.kasu)
+Modified Date: Jul 13, 2020 2:32:21 PM
+Created Date: Mar 26, 2020 3:02:06 PM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: upstream
+Description: 
+Downstream Trace Count: 0
+Upstream Trace Count: 1
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 2317612
+Revision Date: Jul 9, 2020 1:27:09 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: General specification below to be met through actual implementation.
+
+
+Name PartnWdgIf
+Category ECAL 
+Function(Runnable)/Period 	pr1PartnWdgIf/ 2ms 
+Functionality
+
+ASIL Qm
+Execution Time ¡Â xxx
+ROM ¡Â xxx
+RAM ¡Â  xxx
+Constraint N/A
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_15431
+Comment 2: [20. 7. 6] 
+Consistency : Checked
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: Execution Time?¡Â?50usec?
+ROM?¡Â?10KB?
+RAM?¡Â?128Byte?
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Reused with Modifications
+ASIL: QM
+Remark: 
+Original ASIL: QM
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

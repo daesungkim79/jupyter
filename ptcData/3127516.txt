@@ -1,0 +1,143 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3127516
+Item Significant Edit Date on Shared Item: Jul 8, 2020 11:03:29 AM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jul 8, 2020 11:03:29 AM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: Comment
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jul 8, 2020 11:03:29 AM
+Root ID: 3111389
+Reference Mode: Author
+References: 4150092xyz
+Contained By: 3127519
+Contains: 
+Type: Design
+Summary: [Table] Calibration Array
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3127516
+Modified By: 원우석 (wooseok.won)
+Created By: 원우석 (wooseok.won)
+Modified Date: Jul 8, 2020 11:03:29 AM
+Created Date: Feb 19, 2020 4:27:19 PM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: none
+Description: 
+Downstream Trace Count: 0
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: Jul 8, 2020 11:03:29 AM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: [Table] Calibration Array
+
+
+Array NameLong NameImplementation Data TypeLinked Data TypeCategoryApplication Data Type
+ExtIf_PlausChk_VehSpdVehicle Speed based RackPosn Threshold for AD Mode Xaxisfloat32ary10float32XSpd3
+ExtIf_PlausChk_RackPosnCurVehicle Speed based RackPosn Threshold for AD Mode Curvefloat32ary10float32CurMtrx1
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: 
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: 
+ASIL: 
+Remark: 
+Original ASIL: 
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

@@ -1,0 +1,150 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3127768
+Item Significant Edit Date on Shared Item: Jul 9, 2020 1:46:44 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jul 9, 2020 1:46:44 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jul 9, 2020 1:46:44 PM
+Root ID: 3111399
+Reference Mode: Author
+References: 3984208xyz
+Contained By: 3127764
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3127768
+Modified By: seonggwon.jeong (p13985)
+Created By: ¿ø¿ì¼® (wooseok.won)
+Modified Date: Jul 16, 2020 11:46:31 AM
+Created Date: Feb 19, 2020 5:01:27 PM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 7
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 2401490
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: upstream suspect downstream
+Description: 
+Downstream Trace Count: 41
+Upstream Trace Count: 24
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 3775258, 3775260, 3775262, 3775265, 3775269, 3775271, 3775273, 3775275, 3775279, 3775281, 3775283, 3775285, 3775289, 3775291, 3775293, 3775295, 3775299, 3775301, 3775303, 3775305, 3775309, 3775311, 3775313, 3775315, 3775319, 3775321, 3775323, 3775325, 3775329, 3775331, 3775333, 3775335, 3775339, 3775341, 3775343, 3775345, 3775349, 3775351, 3775353, 3775355
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 3969049?, 3850938?, 2556322, 2922721, 2500834, 2402702, 2567438, 2862110, 2554682, 2554686, 2695006?, 2695008?, 2062188, 2062203, 2062208, 2062229, 2062223?, 2062225?, 2062226, 2062228, 2062181, 2491425?, 2062177, 2062230
+Revision Date: Jul 9, 2020 1:46:44 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: General specification below to be met through actual implementation.
+ 
+Category : ASW 
+Runnable / Period:  pr1SteerWhlTq / 1ms 
+Functionality: Estimates physical steering wheel torque during runtime. The SWC gets differential value of input and output shaft from 4 channel TOS and selects target signal by internal condition.
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_15742
+Comment 2: [20. 7. 6] 
+Consistency : Checked
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: Execution Time?¡Â?50usec?
+ROM?¡Â?10KB?
+RAM?¡Â?128Byte?
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Newly Developed
+ASIL: B
+Remark: 
+Original ASIL: D
+Limitation: Specific combination of the sensors to be required. 
+1) ETC from this ECU for primary absolute angle signal
+2) ETC from other ECU for second absolute angle signal
+3) External angle sensor for back up absolute angle signal
+4) MHE TOS fot relative angle signal
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

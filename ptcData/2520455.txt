@@ -1,0 +1,182 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 2520455
+Item Significant Edit Date on Shared Item: Mar 16, 2020 7:23:13 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Mar 16, 2020 7:23:13 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Mar 16, 2020 7:23:13 PM
+Root ID: 2520455
+Reference Mode: Author
+References: 2520456xyz
+Contained By: 3669388
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 2520455
+Modified By: 失奄殿 (gitae.seong)
+Created By: 戚韻莫 (kh_lee)
+Modified Date: Mar 25, 2020 1:22:44 PM
+Created Date: Jun 28, 2019 6:03:40 PM
+Shared Attachments: 
+Authorizing Activity: 3135991
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: downstream
+Description: 
+Downstream Trace Count: 44
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 2489004, 2489006, 2489008, 2489010, 2489012, 2525059, 2525061, 2525063, 2525065, 2525067, 2525069, 2525071, 2525075, 2525073, 2525077, 2525079, 2525083, 2525081, 2525085, 2525087, 2525089, 2525091, 2525093, 2525095, 2525097, 2525099, 2525101, 2525103, 2525105, 3774306, 3774330, 3774334, 3774336, 3774338, 3774340, 3774342, 3774344, 3774346, 3774350, 3774352, 3774354, 3774356, 3774358, 3774360
+Verified By Pass Count: 5
+Verified By Trace Count: 44
+Verified By Pass Percentage: 11%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: Mar 16, 2020 7:23:13 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Green
+Object Text: SFA Tasks
+ 
+『 Lower number in the priority column to be higher priority
+ 
+Task namePriorityPartitionStack SizeTimingDescriptionRemark
+InitTask1Mk512InitializeInit Task for BSW　
+InitTaskOsMk2Mk128InitializeInit Task for ISR　
+InitTask1WdgM3Mk128InitializeInit Task for WdgM　
+InitTask2WdgM4Mk128InitializeInit Task for change WdgM modeNeed to consider
+ShutdownTaskWdgM5Wdg128ShutdownShutdown Task for WdgMNeed to consider
+ShutdownTaskD6D128ShutdownShutdown Task for partition D　
+ShutDownTaskB18B1128ShutdownShutdown Task for partition B1　
+ShutDownTaskB27B2128ShutdownShutdown Task for partition B2　
+InitTaskD9D128InitializeInit Task for partition D　
+Init_TaskB110B1128InitializeInit Task for partition B1　
+Init_TaskB211B2128InitializeInit Task for partition B2　
+RteTask1ms12Qm512periodicRTE Qm Task for 1ms period　
+RteTask1msB1_A13B1128periodicRTE B1 Task #1 for 1ms period　
+RteTask1msB214B2128periodicRTE B2 Task for 1ms period　
+RteTask1msD_A15D256periodicRTE D Task #1 for 1ms period　
+RteTask1msB1_B16B1768periodicRTE B1 Task #2 for 1ms period　
+RteTask1msD_B17D128periodicRTE D Task #2 for 1ms period　
+WdgSrvcTask118Wdg128periodicWatchdog Task for WdgM　
+SchMComTask_1ms19Qm768periodicSchM Task for 1ms CAN 　
+SchMTask320Qm512periodicSchM Task for Can, XCP　
+RteTask2msB121B1512periodicRTE B1 Task for 2ms period　
+RteTask2msQm22Qm256periodicRTE Qm Task for 2ms period　
+RteTask2msB223B2256periodicRTE B2 Task for 2ms period　
+RteTask2msD24D768periodicRTE D Task for 2ms period　
+WdgSrvcTask25Wdg128periodicWatchdog Task for McuDiagc　
+SchMTask126Qm512periodicSchM Task for Com　
+RteTask5msB127B1256periodicRTE B1 Task for 5ms period　
+RteTask5msQm28Qm256periodicRTE Qm Task for 5ms period　
+SchMTask229Qm768periodicSchM Task for Service BSW　
+RteTask10msQm30Qm256periodicRTE Qm Task for 10ms period　
+RteTask10msB131B1768periodicRTE B1 Task for 10ms period　
+RteTask10msB232B2256periodicRTE B2 Task for 10ms period　
+RteTask10msD33D128periodicRTE D Task for 10ms period　
+SchMTask434Qm512periodicSchM Task for Proxy　
+DcmTaskD35D1024eventAsynchronous Task for RTE D　
+DcmTaskB136B11024eventAsynchronous Task for RTE B1　
+Rte_Event_Task37Qm768eventAsynchronous RTE Tasks　
+SrvcTask38Qm128eventRTE Qm Task for lower priority　
+RteErrataTask39Qm256eventRTE Qm Task for lowest priority　
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_14517
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: 
+ASIL: 
+Remark: 
+Original ASIL: 
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: false
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

@@ -1,0 +1,159 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3756810
+Item Significant Edit Date on Shared Item: Mar 24, 2020 10:31:10 AM
+Significant Change Since Item Revision: true
+Significant Edit Date: Mar 24, 2020 10:31:10 AM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: Comment
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Mar 24, 2020 10:31:10 AM
+Root ID: 3756810
+Reference Mode: Author
+References: 3756826xyz
+Contained By: 3756811
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3756810
+Modified By: ¹Î½Â±â (seunggi.min)
+Created By: ¹Î½Â±â (seunggi.min)
+Modified Date: Mar 24, 2020 10:31:10 AM
+Created Date: Mar 24, 2020 10:31:10 AM
+Shared Attachments: 
+Authorizing Activity: 
+Suspect Count: 
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 
+Trace Status: none
+Description: 
+Downstream Trace Count: 0
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: Mar 24, 2020 10:31:10 AM
+Valid Activity: false
+Validated By Trace Health: Out of Range
+Verified By Trace Health: Red
+Object Text: [Table] Send/Receiver Interfaces
+Port NamePort Long NamePort TypePort InterfaceData Element
+MotAg1CumMotor Angle 1 CumulativeRMotAg2Rad
+MotAgEtcMotor Angle ETCRMotAg2Rad
+MotAgEtcVldMotor Angle ETC ValidRFlg1Flg
+MotAgEtc2Motor Angle ETC 2RMotAg2Rad
+MotAgEtc2VldMotor Angle ETC 2 ValidRFlg1Flg
+SASExternal Steering Angle SensorRSteerWhlAg1Ag
+SASVldExternal Steering Angle Sensor ValidRSteerWhlAgSts1SteerWhlAgSts
+T1Raw40DegValTorque1 Raw 40 degree ValueRCnt6Cnt
+T2Raw40DegValTorque2 Raw 40 degree ValueRCnt6Cnt
+PinionAgOffsPinion Angle OffsetRSteerWhlAg1Ag
+EcuRoleEcuRoleREcuRole1EcuRole
+Mps1SigVldFlgMps1 Signal Valid FlagRFlg1Flg
+T1DiagcStsTorque1 Diagnostic StatusRFlg1Flg
+T2DiagcStsTorque2 Diagnostic StatusRFlg1Flg
+ETCCorrlnErrETC Correlation ErrorRFlg1Flg
+PinionAgDiffErrPinion Angle Signal Difference ErrorRFlg1Flg
+PinionAgCalculated Pinion AngleSSteerWhlAg1Ag
+PinionAgVldPinion Angle ValidSFlg1Flg
+PinionAgUntrimmedUntrimmed Pinion AngleSSteerWhlAg1Ag
+PinionAgByMpsPinion Angle Calculated By Motor Position SensorSSteerWhlAg1Ag
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: 
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: 
+ASIL: 
+Remark: 
+Original ASIL: 
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

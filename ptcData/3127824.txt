@@ -1,0 +1,151 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3127824
+Item Significant Edit Date on Shared Item: Jun 26, 2020 2:55:11 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jun 26, 2020 2:55:11 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jun 26, 2020 2:55:11 PM
+Root ID: 3111399
+Reference Mode: Author
+References: 3984211xyz
+Contained By: 3127827
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3127824
+Modified By: seonggwon.jeong (p13985)
+Created By: ¿ø¿ì¼® (wooseok.won)
+Modified Date: Jul 14, 2020 10:23:24 AM
+Created Date: Feb 19, 2020 5:41:38 PM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 3
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 3126013, 2401720
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: upstream suspect downstream
+Description: 
+Downstream Trace Count: 10
+Upstream Trace Count: 15
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 3798224, 3798226, 3798228, 3798230, 3775443, 3775445, 3775447, 3775449
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 3967658?, 2486421, 2501233, 3909129?, 2486419, 2501238, 2062174?, 2062254, 2062255, 2062251, 2062252, 2062099, 2317626, 2317589, 2429455
+Revision Date: Jun 26, 2020 2:55:11 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: General specification below to be met through actual implementation.
+
+
+Category : ASW 
+Runnable / Period:  pr1IntPwrSply / 2ms 
+Functionality: Operates the regulator IC (ARG82101-1) through SPI communicaition with MCU. This SWC provides the supply voltages for powerpack and also drives gate driver.
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_14598
+Comment 2: [20. 7. 6] 
+Consistency : Checked
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: Execution Time?¡Â?50usec?
+ROM?¡Â?10KB?
+RAM?¡Â?128Byte?
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Newly Developed
+ASIL: D
+Remark: 
+Original ASIL: D
+Limitation: Specific combination of the sensors to be required. 
+1) ETC from this ECU for primary absolute angle signal
+2) ETC from other ECU for second absolute angle signal
+3) External angle sensor for back up absolute angle signal
+4) MHE TOS fot relative angle signal
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

@@ -1,0 +1,177 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3812916
+Item Significant Edit Date on Shared Item: Mar 31, 2020 1:29:45 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Mar 31, 2020 1:29:45 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: Comment
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Mar 31, 2020 1:29:45 PM
+Root ID: 3812916
+Reference Mode: Author
+References: 3812930xyz
+Contained By: 3812914
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3812916
+Modified By: È«½Â±Ô (Seunggyu.hong)
+Created By: È«½Â±Ô (Seunggyu.hong)
+Modified Date: Mar 31, 2020 1:29:45 PM
+Created Date: Mar 30, 2020 11:25:13 AM
+Shared Attachments: 
+Authorizing Activity: 3135991
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: none
+Description: 
+Downstream Trace Count: 0
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: Mar 31, 2020 1:29:45 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: [Table] Calibration Constant
+Constant NameLong NameCal TypeApplication Data TypePhyical Unit
+REF_PosnDlyCntposition delay countInternalCnt8NA
+RFE_EnaSwitch for rack force estimator enableInternalFlg1NA
+RFE_F2M_GainGain for converting friction force to torqueInternalMtrx1NA
+RFE_FIRTABTap size of moving average for estimated rack forceInternalCnt8NA
+RFE_FricCompEnaSwitch for friction compensator enableInternalFlg1NA
+RFE_FricDampgDamping coefficient of friction compensatorInternalMtrx1NoUnit
+RFE_FricMaxMaximum value of friction forceInternalMtrx1NoUnit
+RFE_FricStiffStiffness of friction compensatorInternalMtrx1NoUnit
+RFE_InpDlyCntInput motor torque delay count InternalCnt8NA
+RFE_MOTDlyCntMotor delay count for motor torque estimatorInternalCnt8NA
+RFE_MOTLFEnaSwitch for selecting motor torque estimator modeInternalFlg1NA
+RTC_CANUpdCntrCAN update countInternalCnt9NA
+RTC_CmdRateLimRate limit of command signalInternalMtrx1NoUnit
+RTC_EnaSwitch for rack postion tracking controller enableInternalFlg1NA
+RTC_FIRTabOrderTap size of moving average for output position commandInternalCnt8NA
+RTC_KDGainFine velocity gainInternalMtrx1NoUnit
+RTC_KPGainFine position gainInternalMtrx1NoUnit
+RTC_KRGainVelocity reference modification gainInternalMtrx1NoUnit
+RTC_ModeMode for selecting rack positionInternalSts1NA
+RTC_MotTqSatCalLimit of target motor torque.InternalTq1NA
+RTC_MTTAmpThe value of motor torque test amplitudeInternalTq1NA
+RTC_MTTBiasThe value of motor torque test biasInternalTq1NA
+RTC_MTTEnaSwitch for motor torque test enableInternalFlg1NA
+RTC_MTTFrqThe value of motor torque test frequencyInternalCutOffFreq1NA
+RTC_MTTRampDownRateThe value of motor torque test ramp down rateInternalFac1NA
+RTC_MTTTypType of motor torque test inputInternalSts1NA
+RTC_OutpFIRTABTap size of moving average for outputInternalCnt8NA
+RTC_PGFfGainVirtual feed-forward gain for profile generator InternalMtrx1NoUnit
+RTC_PGMaxForceVirutal maximum rack force for profile generatorInternalF1Nwt
+RTC_PGNegMaxPowerVirutal maximum negative rated power for profile generatorInternalMtrx1NoUnit
+RTC_PGPosiMaxPowerVirutal maximum positive rated power for profile generatorInternalMtrx1NoUnit
+RTC_RednPwrRatVirtual power factor for redundant faultInternalFac1NA
+RTC_TPAmpThe value of rack position tracking test amplitudeInternalLen1NA
+RTC_TPBiasThe value of rack position tracking test biasInternalLen1NA
+RTC_TPEnaSwitch for rack position tracking test enableInternalFlg1NA
+RTC_TPFrqThe value of rack position tracking test frequencyInternalCutOffFreq1NA
+RTC_TPRampDownRateThe value of rack position tracking test ramp down rateInternalFac1NA
+RTC_TPTypType of rack position tracking control test inputInternalSts1NA
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: 
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: 
+ASIL: 
+Remark: 
+Original ASIL: 
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

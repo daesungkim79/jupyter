@@ -1,0 +1,214 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3833916
+Item Significant Edit Date on Shared Item: Jul 10, 2020 5:10:01 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jul 10, 2020 5:10:01 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: Comment
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jul 10, 2020 5:10:01 PM
+Root ID: 3833916
+Reference Mode: Author
+References: 3992215xyz
+Contained By: 3833917
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3833916
+Modified By: 원우석 (wooseok.won)
+Created By: 조영훈 (yh.jo)
+Modified Date: Jul 10, 2020 5:10:01 PM
+Created Date: Mar 30, 2020 3:14:32 PM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: none
+Description: 
+Downstream Trace Count: 0
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: Jul 10, 2020 5:10:01 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: [Table] Send/Receiver Interfaces
+Port NamePort Long NamePort TypePort InterfaceData Element
+ThisEcuVICMVehSpdThis ECU VICM Vehicle SpeedRVehSpd2Spd
+ThisEcuVICMVehSpdSigErrThis ECU VICM Vehicle Speed Signal ErrorRFlg1Flg
+ThisEcuEBCMVehSpdThis ECU EBCM Vehicle SpeedRVehSpd2Spd
+ThisEcuEBCMVehSpdSigErrThis ECU EBCM Vehicle Speed Signal ErrorRFlg1Flg
+ThisEcuNmChassisThis ECU Nm Chassis CommandRVICM_NMCmd_Chassis1VICM_NMCmd_Chassis1
+ThisEcuNmChassisSigErrThis ECU Nm Chassis Command Signal ErrorRFlg1Flg
+ThisEcuNmChassisToutErrThis ECU Nm Chassis Command Time Out ErrorRFlg1Flg
+ThisEcuVICMSteerModeCmdThis ECU VICM Steer Mode CommandRSbwSysMod1SbwSysMod
+ThisEcuVICMSteerModeCmdSigErrThis ECU VICM Steer Mode Command Signal ErrorRFlg1Flg
+ThisEcuExtRackPosnCmdThis ECU External Rack Position CommandRRackPosn2RackPosn
+ThisEcuExtRackPosnCmdStThis ECU External Rack Position Command StateRSts4Sts
+ThisEcuExtSteerAgCmdThis ECU External Steering Wheel Angle CommandRSteerWhlAg1SteerWhlAg
+ThisEcuExtSteerAgCmdStThis ECU External Steering Wheel Angle Command StateRSts4Sts
+EcuIdEcu IDREcuId2EcuId
+IgnUIgnition StatusRFlg1Flg
+OemPwrModStOEM Power Mode StateROemEpsModReq1ModReq
+Reg5UStsRegulator 5 Voltage StatusRFlg1Flg
+SteerWhlTq1Steering Wheel Torque 1RSteerWhlTq1Tq
+SteerWhlTq1ErrFlgSteering Wheel Torque 1 Error FlagRFlg1Flg
+SteerWhlTq2Steering Wheel Torque 2RSteerWhlTq1Tq
+SteerWhlTq2ErrFlgSteering Wheel Torque 2 Error FlagRFlg1Flg
+SteerWhlTqDiffErrFlgSteering Wheel Torque Difference Error FlagRFlg1Flg
+ThisEcuMotAgEtcThis ECU Motor Angle ETC RMotAg2Rad
+ThisEcuMotAgEtcVldThis ECU Motor Angle ETC ValidityRFlg1Flg
+ThisEcuRackAgThis ECU Rack Angle RSteerWhlAg1Ag
+ThisEcuRackAgVldThis ECU Rack Angle Validity RFlg1Flg
+EcuRoleECU RoleREcuRole1EcuRole
+ApplModApplModRApplMod1CurrentMode
+ThisEcuStThis ECU StateREcuSts1EcuSts
+ThisEcuIntSteerModThis ECU Internal Steering ModeRSteerMod1SteerMod
+ThisEcuSlfCntrgReqThis ECU Self Centering RequestRFlg1Flg
+MotTqCmdMotor Torque CommandRMotTqCmd1Tq
+F1FltActvF1 Fault ActiveRFlg1Flg
+F2FltActvF2 Fault ActiveRFlg1Flg
+OHPFlgOver Heat Protection FlagRFlg1Flg
+OLPFlgOver Load Protection FlagRFlg1Flg
+ThisEcuSteerWheelModeTxSigThis ECU Steer Wheel Mode Tx SignalRSbwSysMod1SbwSysMod
+ThisEcuExtIfActvStThis ECU External Interface Active StateRSts2Sts
+ThisEcuBattUScaFacThis ECU Battery Scale FactorRRampFac1Fac
+OtherEcuVICMVehSpdOther ECU VICM Vehicle SpeedSVehSpd2Spd
+OtherEcuVICMVehSpdSigErrOther ECU VICM Vehicle Speed Signal ErrorSFlg1Flg
+OtherEcuEBCMVehSpdOther ECU EBCM Vehicle SpeedSVehSpd2Spd
+OtherEcuEBCMVehSpdSigErrOther ECU EBCM Vehicle Speed Signal ErrorSFlg1Flg
+OtherEcuNmChassisOther ECU Nm Chassis CommandSVICM_NMCmd_Chassis1VICM_NMCmd_Chassis1
+OtherEcuNmChassisSigErrOther ECU Nm Chassis Command Signal ErrorSFlg1Flg
+OtherEcuNmChassisToutErrOther ECU Nm Chassis Command Time Out ErrorSFlg1Flg
+OtherEcuVICMSteerModeCmdOther ECU Steer Mode CommandSSbwSysMod1SbwSysMod
+OtherEcuVICMSteerModeCmdSigErrOther ECU Steer Mode Command Signal ErrorSFlg1Flg
+OtherEcuExtRackPosnCmdOther ECU External Rack Position CommandSRackPosn2RackPosn
+OtherEcuExtRackPosnCmdStOther ECU External Rack Position Command StateSSts4Sts
+OtherEcuExtSteerAgCmdOther ECU External Steering Wheel Angle CommandSSteerWhlAg1SteerWhlAg
+OtherEcuExtSteerAgCmdStOther ECU External Steering Wheel Angle Command StateSSts4Sts
+OtherEcuIgnUOther ECU Ignition Voltage SFlg1Flg
+OtherEcuIgnUInvalidOther ECU Ignition Voltage InvalditySFlg1Flg
+OtherEcuOemPwrModStOther ECU OemStSOemSt1OemSt
+OtherEcuSteerWhlTq1Other ECU Steering Wheel Torque 1SSteerWhlTq1Tq
+OtherEcuSteerWhlTq1ErrFlgOther Ecu SteerWhlTq1 Error FlagSFlg1Flg
+OtherEcuSteerWhlTq2Other ECU Steering Wheel Torque 2SSteerWhlTq1Tq
+OtherEcuSteerWhlTq2ErrFlgOther Ecu SteerWhlTq2 Error FlagSFlg1Flg
+OtherEcuMotAgEtcOther ECU Motor Angle ETC SMotAg2Rad
+OtherEcuMotAgEtcVldOther ECU Motor Angle ETC ValiditySFlg1Flg
+OtherEcuRackAgOther ECU Rack Angle SSteerWhlAg1Ag
+OtherEcuRackAgVldOther ECU Rack Angle Validity SFlg1Flg
+OtherEcuRoleOther ECU RoleSEcuRole1EcuRole
+OtherEcuStOther ECU StateSEcuSts1EcuSts
+OtherEcuIntSteerModOther ECU Internal Steering ModeSSteerMod1SteerMod
+OtherEcuSlfCntrgReqOther ECU Self Centering RequestSFlg1Flg
+OtherEcuMotTqCmdOther ECU Motor Torque CommandSMotTqCmd1Tq
+OtherEcuOHPFlgOther ECU Over Heat Protection FlagSFlg1Flg
+OtherEcuOLPFlgOther ECU Over Load Protection FlagSFlg1Flg
+OtherEcuSteerWheelModeTxSigOther ECU Steer Wheel Mode Tx SignalSSbwSysMod1SbwSysMod
+OtherEcuExtIfActvStOther ECU External Interface Active StateSSts2Sts
+OtherEcuF1FltActvOther ECU F1 Fault ActiveSFlg1Flg
+OtherEcuF2FltActvOther ECU F2 Fault ActiveSFlg1Flg
+OtherEcuBattUScaFacOther ECU Battery Scale FactorSFlg1Flg
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: 
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: 
+ASIL: 
+Remark: 
+Original ASIL: 
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

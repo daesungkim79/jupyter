@@ -1,0 +1,152 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3139811
+Item Significant Edit Date on Shared Item: Mar 9, 2020 9:50:19 AM
+Significant Change Since Item Revision: true
+Significant Edit Date: Mar 9, 2020 9:50:19 AM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: Comment
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Mar 9, 2020 9:50:19 AM
+Root ID: 3139811
+Reference Mode: Author
+References: 3139824xyz
+Contained By: 3139809
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3139811
+Modified By: È«½Â±Ô (Seunggyu.hong)
+Created By: È«½Â±Ô (Seunggyu.hong)
+Modified Date: Mar 9, 2020 9:50:19 AM
+Created Date: Feb 20, 2020 7:23:15 PM
+Shared Attachments: 
+Authorizing Activity: 3135991
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: none
+Description: 
+Downstream Trace Count: 0
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: Mar 9, 2020 9:50:19 AM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: [Table] Calibration Constant
+ 
+Constant NameLong NameCal TypeApplication Data TypePhyical Unit
+SSC_BiasN/AInternalAgDeg1NA
+SSC_ChkCntTravel end Detction timeInternalCnt9NA
+SSC_ChkEndDstbcTqTravel end Detction disturbance torqueInternalTq5NA
+SSC_ChkEndAgTravel end Detction angleInternalAgDeg1NA
+SSC_ChkCenterAgTravel center Detction angleInternalAgDeg1NA
+SSC_TestEnaSelf centering test mode enble switchInternalFlg1NA
+SSC_SteerWhlTrvlRngmaximun travel range based on hw spec InternalAgDeg1NA
+SSC_ChkCenterDstbcTqTravel center Detction disturbance torqueInternalTq5NA
+SSC_RateLimrate limit of target steering angle based on driver torqueInternalFac1NA
+SSC_SteerWhlTrvlTolrTavel center detection toleranceInternalAgDeg1NA
+SSC_ChkCenterCntTravel center Detction timeInternalCnt9NA
+SSC_DrvrTqDzDrver torque signal deadzoneInternalTq5NA
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: 
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: 
+ASIL: 
+Remark: 
+Original ASIL: 
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

@@ -1,0 +1,195 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3752349
+Item Significant Edit Date on Shared Item: Mar 24, 2020 9:11:16 AM
+Significant Change Since Item Revision: true
+Significant Edit Date: Mar 25, 2020 4:49:32 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: Comment
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Mar 25, 2020 4:49:32 PM
+Root ID: 3752349
+Reference Mode: Author
+References: 3752350xyz
+Contained By: 3127519
+Contains: 
+Type: Design
+Summary: Interface btw ApplCom & ApplComIf
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3752349
+Modified By: Yadunandan Kasu (yadunandan.kasu)
+Created By: Yadunandan Kasu (yadunandan.kasu)
+Modified Date: Mar 25, 2020 4:49:32 PM
+Created Date: Mar 23, 2020 5:14:59 PM
+Shared Attachments: 
+Authorizing Activity: 3135991
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: none
+Description: 
+Downstream Trace Count: 0
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: Mar 25, 2020 4:49:32 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: 1. ApplCom and ApplComIf shall exchange the data between them via one global variable as struct data type (g_tApplComData).
+2. This global variable shall have subset of structures that contains Message layout with physical signal values matching to the DBC
+	*. Example code is given below
+		*. ApplCom_T g_tApplCom_Data
+		*. typedef struct
+{ 
+        RX_MSG_LIST rxMsg;
+        TX_MSG_LIST txMsg;
+}ApplCom_T;
+	
+		*. 
+
+typedef struct 
+{
+         RX_EBCM_MSG_1   EBCM_Msg_1;
+         RX_VICM_MSG_1 VICM_Msg_1;
+}RX_MSG_LIST;	
+		*. 
+
+typedef struct
+{
+          MSG_CFG                                   Cfg;
+          RX_MSG_INFO                           Info;
+          MSG_LAYOUT_EBCM_MSG_1  Layout;
+          uint8                                             RxIpdu[VICM_Msg_1_LENGTH];
+} RX_EBCM_MSG_1;	
+		*. 
+
+typedef struct 
+{
+           uint8  u8PduId;
+           uint8  u8DataId[2];
+           uint8  u8Length;
+}MSG_CFG;	
+		*. 
+
+typedef struct
+{
+            uint8 u8NewMsgRecv;
+            uint8 u8RxAtleastOnce;
+            uint8 u8MsgTimeoutFlg;
+            uint8 u8MsgArcFailFlg;
+            uint8 u8MsgCrcFailFlg;
+}RX_MSG_INFO;	
+		*. 
+
+typedef struct
+{
+            uint8 u8EBCM_Sig1;
+            uint8 u8EBCM_Sig2;
+            float32 f32EBCM_Sig3;
+}MSG_LAYOUT_EBCM_MSG_1;	
+3. For Rx messages, ApplCom periodic runnable shall check if a new message is received for a particular PDU ID that is configured in CanIf module.
+4. If a new message is received, ApplCom shall get updated Pdu buffer data (raw data) via CanIf_Callouts.c callback functions and convert the raw data into physical signal and update the Rx message layout signal variable (g_tApplCom_Data) with this physical data. ApplComIf shall then update the Rte P-ports with this physical signal information in its own periodic runnable.
+5. For Tx messages, ApplComIf periodic runnable shall update the physical signal of the Tx message based on the data received from other SWCs via Rte-R ports.
+6. ApplCom shall convert this physical data into raw data and update the PDU buffer in its own periodic runnable (after confirming the ACK was received for the previous Tx message) and then trigger CAN Tx by calling the callback function defined in CanIf_Callouts.c
+Text Attachments: 
+1_ApplCom_Arch_CanIfCallouts.jpg (47953 bytes)
+PTC_515238698711176353.png (72673 bytes)
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: 
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: 
+ASIL: 
+Remark: 
+Original ASIL: 
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

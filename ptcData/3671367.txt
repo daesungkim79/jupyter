@@ -1,0 +1,249 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3671367
+Item Significant Edit Date on Shared Item: Jun 2, 2020 7:06:50 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jun 2, 2020 7:06:50 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jun 2, 2020 7:06:50 PM
+Root ID: 2520461
+Reference Mode: Author
+References: 4092625xyz
+Contained By: 3671361
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3671367
+Modified By: 원우석 (wooseok.won)
+Created By: 원우석 (wooseok.won)
+Modified Date: Jun 2, 2020 7:06:50 PM
+Created Date: Mar 16, 2020 7:24:23 PM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 0
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: downstream
+Description: 
+Downstream Trace Count: 48
+Upstream Trace Count: 0
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 2312190, 2312189, 2312228, 2312227, 2312234, 2312233, 2312243, 2312244, 2524231, 2524233, 2312271, 2312272, 2312273, 2312275, 3770128, 3770126, 2312299, 2312297, 2312303, 2312301, 2312307, 2312305, 2312311, 2312309, 2312315, 2312313, 2312319, 2312317, 2312394, 2312392, 2312426, 2312424, 2312430, 2312428, 2312434, 2312432, 2312438, 2312436, 2312446, 2312444, 2312450, 2312448, 2312458, 2312456, 2312506, 2312504, 2312512, 2312510
+Verified By Pass Count: 48
+Verified By Trace Count: 48
+Verified By Pass Percentage: 100%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 
+Revision Date: Jun 2, 2020 7:06:50 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Green
+Object Text: [Table] RTE Periodic Runnables
+
+
+※ Lower number in the position column shall be executed earlier.
+
+
+TasksEvents
+Task namePositionRunnablePeriod(ms)Offset(ms)
+RteTask1ms1prCP1msStrtQm10
+2pr1InitRunnable10
+3pr1IoHwAb_An10
+4pr1IoHwAb_Discrete10
+5pr1DiagPreCond10
+6pr1ApplComPrivate10
+7pr2ApplCom10
+RteTask1msB1_A1pr1InitRunnableB110
+2pr1IoHwAb_Sent10
+3pr1RackAgSnsr10
+4pr2ApplComIf10
+RteTask1msB21pr1IoHwAb_B2_Spi10
+2pr1MotAgDiagc210
+RteTask1msD_A1prCP1ms1StrtD10
+2pr1InitRunnableD10
+3pr1ActrMot10
+4pr1MotAgDiagc10
+5pr1MotAgSpd10
+6pr1MotAgEtc10
+7pr1RackPosn10
+8pr1SbwSigVotg10
+RteTask1msB1_B1prCP1msStrtB110
+2pr1RWACtrlStMac10
+3pr1RackPosnSelfCtrg10
+4pr1RwaTarPosnArbn10
+5pr1RackPosnTrckgCtrl10
+6pr1MotTqCmdSeln10
+7pr1OverLoadProtn10
+8pr1MotTqCmd10
+9pr1MotRefCalcn10
+10pr1MotTqRplCncl10
+RteTask1msD_B1prCP1ms2StrtD10
+2pr2ActrMot10
+3pr1RWAFbCtrlDiagc10
+4pr1MotPhaOpenDiagc50
+5pr1MotIDiffDiagc50
+6pr1MotISnsrDiagc50
+7pr1MotIOVDiagc50
+WdgSrvcTask11ExtWdg_MainFunction20
+2WdgM_MainFunction100
+SchMComTask_1ms1Can_17_MCanP_MainFunction_Write10
+2Can_17_MCanP_MainFunction_Read10
+SchMTask31Xcp_MainFunction20
+2Can_17_MCanP_MainFunction_Mode20
+RteTask2msB11prCP2msStrtB120
+2pr1PICoeffEstimn20
+3pr1TqRampCtrl20
+4pr1OemSbwEna20
+RteTask2msQm1prCP2msStrtQm20
+2pr1PartnWdgIf20
+3pr2DemProxyQm20
+RteTask2msB21prCP2msStrtB220
+RteTask2msD1prCP2msStrtD20
+2pr1GateDrvr20
+3pr1IntPwrSply20
+4pr1SigCorrlnDiagc20
+5pr3ActrMot20
+6pr1FailrMgr20
+7pr1EcuRole20
+8pr1ModMgr20
+SchMTask11Com_MainFunctionRx50
+2Com_MainFunctionTx50
+3Com_MainFunctionRouteSignals50
+4CanTp_MainFunction50
+RteTask5msB11pr1ApplComIf50
+RteTask5msQm1pr1ApplCom50
+SchMTask21BswM_MainFunction200
+2Dem_MainFunction200
+3EcuM_MainFunction200
+4NvM_MainFunction100
+5Fee_MainFunction100
+6Fls_17_Pmu_MainFunction100
+7Can_17_MCanP_MainFunction_Busoff100
+8CanSM_MainFunction100
+9ComM_MainFunction_0100
+10ComM_MainFunction_1100
+11Dcm_MainFunction100
+RteTask10msQm1prCP10msStrtQm100
+2pr1TunVrntSel100
+3pr1MotPrmEstimn100
+4pr1RunningRstDiagc100
+5pr1DemProxyQm200
+RteTask10msB11prCP10msStrtB1100
+2pr1VehSpd100
+3pr1BattUDiagc100
+4pr1BrdgUDiagc100
+5pr1IgnDiagc100
+6pr1OverHeatProtn400
+7prNvmProxyB1100
+8pr1DemProxyB1200
+9pr1SysCfg100
+RteTask10msB21pr1DemProxyB2200
+RteTask10msD1pr1DemProxyD200
+SchMTask41DemProxy_MainFunction200
+2NvMProxy_MainFunction100
+SrvcTask1pr1PpkTrim40
+2pr1AnalyticRec80
+RteErrataTask1pr2PpkTrim4000
+2pr1IoHwAb_Dcm2000
+3prIoHwAb_Rsc2000
+4pr200DemProxyQm2000
+5pr1RteErrata10000
+6pr1DemProxyA200
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_14592
+Comment 2: 
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: 
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Reused with Modifications
+ASIL: 
+Remark: 
+Original ASIL: QM
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: Software Integration Test
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

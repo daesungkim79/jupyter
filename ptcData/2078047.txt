@@ -1,0 +1,249 @@
+Versions: 
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 2078047
+Significant Change Since Item Revision: true
+Significant Edit Date: Apr 27, 2020 3:22:53 PM
+Revision Increment Date: 
+Revision: 
+Bookmarks: 
+Parameter Values: 
+Parameters: 
+Shared Category: Document
+Input Revision Date: Apr 27, 2020 3:22:53 PM
+Root ID: 2078047
+Referenced By: 
+Contains: 2312009ay, 2312029ay, 2312037ay, 2312047ay, 2312049ay, 2312055ay, 2312404ay, 2312410ay, 2312420ay, 3106055ay, 2312422ay
+Type: Design Document
+State: Verified
+Project: /Steering/SBW_LV
+Assigned User: 신창우 (changwoo.shin), 김대성 (p13870), 홍승규 (Seunggyu.hong), 원우석 (wooseok.won)
+ID: 2078047
+Modified By: Mando Integrity 관리자 (mksadmin)
+Created By: 김대성 (p13870)
+Modified Date: Jul 20, 2020 1:42:39 AM
+Created Date: Mar 18, 2019 10:41:15 AM
+Shared Attachments: 
+Authorizing Activity: 3135991
+Root Document: true
+Shared Text: Software architectural design specification for SbW system
+ 
+Abbreviation: SADS
+ 
+Software architectural design specification for SBW system
+ 
+Abbreviation: SADS (Software Architectural Design Specification)
+ 
+This document includes: 
+1. SW architecture design
+* Interface requirement specification
+* Data flow analysis
+* Static design
+* Software component specification
+* Resource estimation (Rom, Ram, Stack, Throughput)
+* Dynamic design (behavior design, interaction diagram, sequence diagram)
+* Safety architecture (freedom from interference, safety design, partition)
+ 
+2. Software configuration and calibration data specification 
+* from ISO26262, Part6 - Apendix C
+ 
+3. Traceability record
+ 
+4. Review record
+Initial Baseline: 
+Document Short Title: Software architectural design specification
+Modified Count Since Initial Baseline: 0
+All Content Count: 1,958
+Content Back Trace Count: 110
+Content Without Back Traces Count: 15
+Meaningful Content Count: 125
+Suspect Content Count: 62
+Suspect Relationship Count: 319
+Included Document Count: 0
+Inserted Document Count: 0
+Open Activity Count: 0
+Closed Activity Count: 8
+Content Without Back Traces Percentage: 12%
+Suspect Content Percentage: 50%
+Yesterday Document Churn: 0
+Last Week Document Churn: 110
+Additional Comments: [김대성 (p13870), May 15, 2019 12:00:39 PM KST]
+baselined with Gen3.5 BLAC S LV-DBL(F-001.0.0)
+
+
+[이광형 (kh_lee), Aug 14, 2019 11:34:03 AM KST]
+SITS 설정이 완료되어 문서 상태를 변경함
+
+[이광형 (kh_lee), Aug 20, 2019 8:45:28 PM KST]
+Relationship에 설정되어 있는 Review Issue는 Beta Event때 처리 예정
+
+[김대성 (p13870), Aug 21, 2019 2:11:46 PM KST]
+Baseliend with Gen3.5 BLAC S LV-SBL(F-002.0.0)-Temp1
+
+[김대성 (p13870), Sep 19, 2019 9:46:07 AM KST]
+Activity 2764550 근거로 상태 변경 및 변경 Relationship 부여
+
+[이광형 (kh_lee), Sep 24, 2019 2:37:11 PM KST]
+필요내용 완료되어(Activity 2764550) 문서 상태를 변경함
+
+[김대성 (p13870), Oct 29, 2019 2:27:22 PM KST]
+Reason for state Chagne
+- [SFA][RWA] SAD Trace Update(Beta 2nd Car SW)
+
+[이광형 (kh_lee), Nov 8, 2019 3:22:43 PM KST]
+1. CM Rhapsody Module <-> PTC RM Architectural Design Specification<->Sw Requriement Trace Update
+2. Test Case와의 Trace count update를 위한 Sw category update 완료되어 문서 상태 변경함
+
+[김대성 (p13870), Nov 27, 2019 10:54:42 AM KST]
+Baseliend with Gen3.5 BLAC S LV-SBL(F-004.0.0)-Temp1
+
+[이성훈 (p14506), Jan 10, 2020 9:59:55 AM KST]
+Changed Assigned User
+
+[이성훈 (p14506), Jan 14, 2020 3:46:28 PM KST]
+Activity 3094709 근거로 문서 상태 변경(Basedline to  In Change)
+
+[김대성 (p13870), Feb 21, 2020 1:49:15 PM KST]
+Review 3108995 근거로 문서 상태를 Verified 로 변경함.
+
+[이성훈 (p14506), Feb 25, 2020 10:10:06 AM KST]
+Activity 3135991 근거로 문서 상태 변경 (In Change). SBL 은 v1.2 로 진행 예정
+Document Type: SW architectural design specification
+Changes Authorized By: 2276065, 2764550, 2312156, 2520435, 2862285, 3094709, 3135991, 3984134
+Documents: 2094356
+Revision Date: Apr 27, 2020 3:22:53 PM
+Valid Activity: false
+Allow Edits: false
+Use Hierarchical Editability: true
+Allow Traces: true
+Allow Links: false
+Document Phase: Closed
+Project State: Active
+Project Phase: Open
+Source Trace: 
+Accountable Manager: 변태완 (p13497)
+RIF_Attachments: 
+RIF_Configuration: 
+RIF_Identifier: 
+RIF_ID: 
+View Assigned User: 
+Project ID: 
+Members To Be Notified: 
+Traceability Count (Decomposed From): 1
+Traceability Count (Decomposes To): 81
+Traceability Count (Derived By): 0
+Traceability Count (Implements): 110
+Traceability Count (Verified By): 27
+Traceability Percentage (Decomposed From): 1%
+Traceability Percentage (Decomposes To): 65%
+Traceability Percentage (Derived By): 0%
+Traceability Percentage (Derived From): 0%
+Traceability Percentage (Implements): 88%
+Traceability Percentage (Satisfies): 0%
+Traceability Percentage (Verified By): 22%
+Traceability Count (Derived From): 0
+Process Phase: Open
+CM Engineer FVA: 신창우 (changwoo.shin), 이두진 (dustin.lee), 김대성 (p13870), joowheun.lee(이주훤) (p14344), 이성훈 (p14506), 함설희 (seolhee.ham), shyun.kim(김승현) (shyun.kim), Vivek Singh (vivek.singh), 김영범 (yb.kim)
+Backward Documents in Folder: 2401019
+Traceability Count (SyDS-SyITS): 0
+Traceability Count (SADS-SRS): 109
+Traceability Count (SADS-SUDS): 77
+Traceability Count (SADS-SITS): 13
+Traceability Count (SUDS-SUTS): 0
+Traceability BaseCount (SyDS-SyRS): 0
+Traceability BaseCount (SyDS-SRS): 0
+Traceability BaseCount (SyDS-SyITS): 0
+Traceability BaseCount (SADS-SRS): 124
+Traceability BaseCount (SADS-SUDS): 86
+Traceability BaseCount (SADS-SITS): 57
+Traceability BaseCount (SUDS-SADS): 0
+Traceability BaseCount (SUDS-SUTS): 0
+Traceability Percentage (SyDS-SyRS): 0%
+Traceability Percentage (SyDS-SRS): 0%
+Traceability Percentage (SyDS-SyITS): 0%
+Traceability Percentage (SADS-SRS): 87.9%
+Traceability Percentage (SADS-SUDS): 89.5%
+Traceability Percentage (SADS-SITS): 22.8%
+Traceability Percentage (SUDS-SUTS): 0%
+Document Relates: 2468320, 3108995, 3112056, 3966134, 4119213, 4143744
+Shared Members To Be Comments Notified: 
+Traceability Percentage (SyDS-SyRS)-O1: 
+Traceability Percentage (SyDS-SyRS)-O2: 
+Traceability Percentage (SyDS-SyRS)-O3: 
+Traceability BaseCount (SyDS-SyRS)-O1: 
+Traceability BaseCount (SyDS-SyRS)-O2: 
+Traceability BaseCount (SyDS-SyRS)-O3: 
+Traceability Percentage (SyDS-SRS)-O1: 
+Traceability Percentage (SyDS-SRS)-O2: 
+Traceability Percentage (SyDS-SRS)-O3: 
+Traceability BaseCount (SyDS-SRS)-O1: 
+Traceability BaseCount (SyDS-SRS)-O2: 
+Traceability BaseCount (SyDS-SRS)-O3: 
+Traceability Count (SyDS-SRS)-O1: 
+Traceability Count (SyDS-SRS)-O2: 
+Traceability Count (SyDS-SRS)-O3: 
+Traceability Percentage (SyDS-SyITS)-O1: 
+Traceability Percentage (SyDS-SyITS)-O2: 
+Traceability Percentage (SyDS-SyITS)-O3: 
+Traceability BaseCount (SyDS-SyITS)-O1: 
+Traceability BaseCount (SyDS-SyITS)-O2: 
+Traceability BaseCount (SyDS-SyITS)-O3: 
+Traceability Count (SyDS-SyITS)-O1: 
+Traceability Count (SyDS-SyITS)-O2: 
+Traceability Count (SyDS-SyITS)-O3: 
+Traceability Percentage (SADS-SRS)-O1: 
+Traceability Percentage (SADS-SRS)-O2: 
+Traceability Percentage (SADS-SRS)-O3: 
+Traceability BaseCount (SADS-SRS)-O1: 
+Traceability BaseCount (SADS-SRS)-O2: 
+Traceability BaseCount (SADS-SRS)-O3: 
+Traceability Percentage (SADS-SUDS)-O1: 
+Traceability Percentage (SADS-SUDS)-O2: 
+Traceability Percentage (SADS-SUDS)-O3: 
+Traceability BaseCount (SADS-SUDS)-O1: 
+Traceability BaseCount (SADS-SUDS)-O2: 
+Traceability BaseCount (SADS-SUDS)-O3: 
+Traceability Count (SADS-SUDS)-O1: 
+Traceability Count (SADS-SUDS)-O2: 
+Traceability Count (SADS-SUDS)-O3: 
+Traceability Percentage (SADS-SITS)-O1: 
+Traceability Percentage (SADS-SITS)-O2: 
+Traceability Percentage (SADS-SITS)-O3: 
+Traceability BaseCount (SADS-SITS)-O1: 
+Traceability BaseCount (SADS-SITS)-O2: 
+Traceability BaseCount (SADS-SITS)-O3: 
+Traceability Count (SADS-SITS)-O1: 
+Traceability Count (SADS-SITS)-O2: 
+Traceability Count (SADS-SITS)-O3: 
+Traceability Percentage (SUDS-SADS)-O1: 
+Traceability Percentage (SUDS-SADS)-O2: 
+Traceability Percentage (SUDS-SADS)-O3: 
+Traceability BaseCount (SUDS-SADS)-O1: 
+Traceability BaseCount (SUDS-SADS)-O2: 
+Traceability BaseCount (SUDS-SADS)-O3: 
+Traceability Percentage (SUDS-SUTS)-O1: 
+Traceability Percentage (SUDS-SUTS)-O2: 
+Traceability Percentage (SUDS-SUTS)-O3: 
+Traceability BaseCount (SUDS-SUTS)-O1: 
+Traceability BaseCount (SUDS-SUTS)-O2: 
+Traceability BaseCount (SUDS-SUTS)-O3: 
+Traceability Count (SUDS-SUTS)-O1: 
+Traceability Count (SUDS-SUTS)-O2: 
+Traceability Count (SUDS-SUTS)-O3: 
+Traceability BaseCount (SyDS-HITS): 0
+Traceability Percentage (SyDS-HITS): 0%
+Traceability BaseCount (SyDS-HITS)-O1: 
+Traceability BaseCount (SyDS-HITS)-O2: 
+Traceability BaseCount (SyDS-HITS)-O3: 
+Traceability Percentage (SyDS-HITS)-O1: 
+Traceability Percentage (SyDS-HITS)-O2: 
+Traceability Percentage (SyDS-HITS)-O3: 
+MetricChanged: 
+
+Attachments: 
+[Guideline] Requirements traceability management guideline.pptx (414511 bytes)
+
+Forward Relationships: 
+
+Backward Relationships: 
+

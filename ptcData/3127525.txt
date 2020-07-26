@@ -1,0 +1,155 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3127525
+Item Significant Edit Date on Shared Item: Jul 9, 2020 1:42:57 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jul 9, 2020 1:42:57 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jul 9, 2020 1:42:57 PM
+Root ID: 3111399
+Reference Mode: Author
+References: 4130022xyz
+Contained By: 3127521
+Contains: 
+Type: Design
+Summary: General specification
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3127525
+Modified By: seonggwon.jeong (p13985)
+Created By: ¿ø¿ì¼® (wooseok.won)
+Modified Date: Jul 16, 2020 2:07:14 PM
+Created Date: Feb 19, 2020 4:27:19 PM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 61
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 2401023
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: upstream suspect downstream
+Description: 
+Downstream Trace Count: 1
+Upstream Trace Count: 184
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 2870078?, 2870081?, 2922225?, 2299846?, 2513637, 2850848, 2513647, 2513639, 2513643, 2513641, 3094984, 3094917, 3914703?, 3094682, 3094979?, 3094981, 3094684, 3094931, 3914728, 2300407?, 2300409?, 3104656, 3893353, 3897281?, 3897286?, 3915073?, 2867754?, 3897279?, 3908938?, 3794303?, 3938663?, 3967899?, 2431757?, 2937714, 3915145, 2806597?, 2862303?, 2062178?, 2062270?, 2062267?, 2062259?, 2062268?, 2299900?, 2467122, 2499962, 2842340, 2842348, 3094597, 2590963, 3094995, 2081621?, 2402638?, 2403105, 2403115, 2445472, 4122236, 2473980, 2504524, 2504528, 2504526, 2541684, 2301359, 2301357, 2402652?, 2427916, 3092493, 2301349, 2301353, 2300371, 2842154, 2842156, 2842158, 2857975?, 2857977?, 2861712, 2861714, 3908865, 2730785, 2867806, 2861736, 2861759, 2867750, 2867752, 2867756, 2867808, 2731497, 2319144, 2504755, 2504757, 2371986, 3103708?, 4104744, 4104746, 4124041, 4104748, 4104750, 4104752, 4104754, 4104756, 4104758?, 4104762?, 4104764?, 4104875, 3979356, 3794297, 2735058, 2735495, 2744711, 3915043?, 2513633, 4116109, 4116112, 3936849, 4116143, 4116146, 2922180, 3926055, 2922188, 2731499, 4116130, 2733487, 3106149?, 2431657?, 2431659?, 2486409?, 2446525?, 3913956?, 2922632?, 2960089?, 2982000?, 2062277, 2062283, 2062282, 2062281, 2062257, 2616971, 2937746, 3922950, 2922227, 2922229, 2555522, 2555524, 2555525, 2555526, 2555527, 2062237, 3915441, 2062233, 2062234, 2062245, 2062256, 2062247, 3980705, 2540478, 2540480, 2540482, 2540484, 2540486, 2534250, 2806501, 2525188?, 4097144?, 4097146?, 4097148?, 2525184?, 2525186?, 2525190?, 2525192?, 2535324?, 3915051?, 3915053?, 3915055?, 4097208?, 4122200, 4122196, 4122198, 4122202, 4122204, 4097150, 4097142?, 2951526, 3915062, 3808847?, 3707191?
+Revision Date: Jul 9, 2020 1:42:57 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: General specification below to be met through actual implementation.
+ 
+Name ApplCom 
+Category ECAL 
+Function(Runnable)/Period 	pr1ApplCom / 5ms 
+pr2ApplCom / 1ms 
+pr1ApplComIf / 5ms 
+pr2ApplComIf / 1ms
+FunctionalityProcess the CAN Tx/Rx messages including Rx message diagnostics like Timeout, Crc, Arc and Signal errors. 
+ASIL xxx 
+Execution Time ¡Â xxx
+ROM ¡Â xxx
+RAM ¡Â  xxx
+Constraint All the Tx and Rx message layout structures shall be declared as global (structure) variable and initialized in ApplCom_GlobalShared.c file.
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_12664
+Comment 2: [20. 7. 6] 
+Consistency : Checked
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: Execution Time?¡Â?50usec?
+ROM?¡Â?10KB?
+RAM?¡Â?128Byte?
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Newly Developed
+ASIL: QM, B
+Remark: 
+Original ASIL: D
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

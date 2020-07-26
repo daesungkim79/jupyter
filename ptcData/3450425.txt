@@ -1,0 +1,148 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3450425
+Item Significant Edit Date on Shared Item: Jun 26, 2020 2:38:42 PM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jun 26, 2020 2:38:42 PM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jun 26, 2020 2:38:42 PM
+Root ID: 3450425
+Reference Mode: Author
+References: 3984209xyz
+Contained By: 3450426
+Contains: 
+Type: Design
+Summary: 
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3450425
+Modified By: seonggwon.jeong (p13985)
+Created By: Á¶¼Ò¿µ (soyoung.jo)
+Modified Date: Jul 14, 2020 10:23:24 AM
+Created Date: Mar 9, 2020 9:23:00 AM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 6
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 2401443, 3125952
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: upstream suspect downstream
+Description: 
+Downstream Trace Count: 2
+Upstream Trace Count: 14
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 3967658?, 2062278?, 2062180?, 2828688?, 2828717?, 2499189, 2500830, 2828757, 2567328, 2475835?, 2062292, 2062182, 2062183, 2062290
+Revision Date: Jun 26, 2020 2:38:42 PM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: General specification below to be met through actual implementation.
+ 
+Category : ASW 
+Runnable / Period: ir1BattUDiagc/Init, pr1BattUDiagc /10ms 
+Functionality: Check battery voltage is in normal range
+Text Attachments: 
+MKSImg5670077291743562867.png (18605 bytes)
+MKSImg4450401382290785515.png (29908 bytes)
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_13271
+Comment 2: [20. 7. 6] 
+Consistency : Checked
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: Execution Time?¡Â?50usec?
+ROM?¡Â?10KB?
+RAM?¡Â?128Byte?
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Reused with Modifications
+ASIL: B
+Remark: 
+Original ASIL: D
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: 
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+

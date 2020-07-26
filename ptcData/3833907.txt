@@ -1,0 +1,148 @@
+Minor Version ID: 
+Major Version ID: 
+Live Item ID: 3833907
+Item Significant Edit Date on Shared Item: Jul 9, 2020 11:43:03 AM
+Significant Change Since Item Revision: true
+Significant Edit Date: Jul 9, 2020 11:43:03 AM
+Revision Increment Date: 
+Revision: 
+Referenced Bookmarks: 
+Bookmarks: 
+Shared By: 
+Shares: 
+Parameter Values: 
+Category: HW/SW design description
+Referenced Item Type: Shared Design
+Subsegment Name: 
+Document ID: 2078047
+Input Revision Date: Jul 9, 2020 11:43:03 AM
+Root ID: 3833907
+Reference Mode: Author
+References: 4125119xyz
+Contained By: 3833908
+Contains: 
+Type: Design
+Summary: ApplComPrivate
+State: Edit
+Project: /Steering/SBW_LV
+ID: 3833907
+Modified By: seonggwon.jeong (p13985)
+Created By: Á¶¿µÈÆ (yh.jo)
+Modified Date: Jul 14, 2020 10:23:24 AM
+Created Date: Mar 30, 2020 3:14:32 PM
+Shared Attachments: 
+Authorizing Activity: 3984134
+Suspect Count: 8
+IncludeReference: false
+Comments: 
+Priority: 
+Satisfied By: 
+Validated By: 
+Decomposes To: 3125950, 2401506
+Is Related To: 
+Validated By Trace Count: 0
+Trace Status: upstream suspect downstream
+Description: 
+Downstream Trace Count: 2
+Upstream Trace Count: 32
+Validated By Pass Count: 0
+Validated By Pass Percentage: 0%
+Additional Comments: 
+Modelled By: 
+Verified By: 
+Verified By Pass Count: 0
+Verified By Trace Count: 0
+Verified By Pass Percentage: 0%
+Derived By: 
+Satisfies: 
+Changes Authorized By: 
+Decomposed From: 
+Is Related To': 
+Derived From: 
+Implements: 3794303?, 2558153?, 3979356, 3794297, 2735058, 2735495, 2744711, 3915043?, 2513633, 4116109, 4116112, 3936849, 4116143, 4116146, 2922180, 3926055, 2922188, 2687815?, 2918222?, 2493168, 2475752, 2491978, 2475760, 2475762, 2475764, 2475771?, 2471978?, 2751079?, 2558187, 2558155, 2558157, 2653675
+Revision Date: Jul 9, 2020 11:43:03 AM
+Valid Activity: false
+Validated By Trace Health: Red
+Verified By Trace Health: Red
+Object Text: General specification below to be met through actual implementation.
+
+
+Category : ASW 
+Runnable / Period:  pr1ApplComPrivate / 1ms
+Functionality: This component is used to share information between two ECUs.
+Also, the failure status information generated in this communication is used to determine the reactions of ECUs.
+Text Attachments: 
+Project State: Active
+Parameter Values From Shared Item: 
+Parameters From Shared Item: 
+External ID: 
+Project Phase: Open
+Mando_ID: 
+Trace_ID: 
+Source Trace: 
+For Failure Mode: 
+Data type: 
+Initialization: 
+Range of data(Max): 
+Range of data(Min): 
+Current Value: 
+Acceptance Criteria: 
+RIF_Identifier: 
+RIF_ID: 
+Test Report: 
+Test Report Attachments: 
+Windchill Item: 
+Project ID: 
+Unique ID: SADS_16513
+Comment 2: [20. 7. 6] 
+Consistency : Checked
+Comment 3: 
+Comment 4: 
+Applicable to Project: 
+Applicable Variant Info: 
+Comment Spare 5: 
+Generate Unique ID: Generate Unique ID
+Requirement Type: 
+Feature: 
+Input: 
+Output: 
+Resource: Execution Time??¡Â?50usec?
+ROM?¡Â?10KB?
+RAM?¡Â?128Byte
+Object Text (Korean Language): 
+Object Text (Other Language): 
+Rationale: 
+SW Category: Newly Developed
+ASIL: QM
+Remark: 
+Original ASIL: D
+Limitation: 
+HW/SW: 
+HSI_Characteristics: 
+Responsible: 
+isMeaningful: true
+Internal Review Comment: 
+Testability Analysis: 
+Verification Method: Software Integration Test
+Source Link: 
+isTestable: true
+Implementation Status: 
+Feature(Ibpl): 
+Source Type: 
+Document Relates: 
+Testability Analysis(Unshared): 
+Feasibility Anlaysis(Unshared): 
+Internal review comment(Unshared): 
+Feasibility Analysis: 
+ASIL(Unshared): 
+PortType: 
+Source(Unshared): 
+Source Type(Unshared): 
+Verification Method(Unshared): 
+
+Attachments: 
+
+Forward Relationships: 
+
+Backward Relationships: 
+
